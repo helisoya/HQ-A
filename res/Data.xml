@@ -812,5 +812,672 @@
   	</buttons>
   </scene>
 
+  <scene id="OnRoad_15">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> ... </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_16</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_16">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> On dirait des maisons au loin, je devrais faire attention. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_17</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_17">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je m'approche des maisons. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_18</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_18">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Elles ont l'air habitées, il y a de la lumière à l'intérieur. </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_19</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_19">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Il semblerait que quelqu'un est à la fenetre avec un fusil. </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_20</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_20">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Il va forcement essayer de me tuer. Je devrais trouver une solution à ce problème. </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>3</number>
+  		<b1name>Contourner la maison</b1name>
+  	  <b1to>OnRoad_21a</b1to>
+      <b2name>Passer en marchant</b2name>
+      <b2to>OnRoad_21b</b2to>
+      <b3name>Passer en courant</b3name>
+      <b3to>OnRoad_21c</b3to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_21a">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je contourne la maison afin d'éviter le tireur. Mon plan fonctionne, j'arrive à continuer sur le chemin. </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_22</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_21b">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je passe en marchant en espérant qu'il ne tire pas. Mon plan fonctionne, j'arrive à continuer sur le chemin. </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_22</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_21c">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je passe en courant. Il me tire dessus et je tombe au sol... </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Dead_Shot_OnRoad</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_22">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> J'ai eu de la chance... </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_23</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_23">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Vite, je dois continuer, avant qu'il ne décide de venir par ici... </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_24</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_24">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je m'éloigne de la maison en prenant garde de ne pas être suivit. </dialog>
+  	<background>res\\img\\route_maison.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_25</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_25">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je me retrouve de nouveau sur la route. Il n'y a rien devant moi sur quelques kilomètres. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_26</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_26">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je continue donc de marcher sur la route. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_27</b1to>
+  	</buttons>
+  </scene>
+
+    <scene id="OnRoad_27">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Je continue donc de marcher sur la route. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_28</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_28">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Je marche pendant une dizaine de minutes quand... </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_29</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_29">
+    	<charname> ??? </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Vous la ! Arretez-vous ! Vous êtes un criminel ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_30</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_30">
+    	<charname> Héro </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Qui ? Moi ? Je n'ai rien fait ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_31</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_31">
+    	<charname> ??? </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Bien sur que si ! Je vous ai vu ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_32</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_32">
+    	<charname> ??? </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Vous osez ne pas aller au parc ! Vous voulez l'éviter ! C'est innacceptable ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_33</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_33">
+    	<charname> Garde du Parc </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Vous allez le regreter ! Je vais suivre les ordres du PDG à la lettre ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_34</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_34">
+    	<charname> Héro </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> C'est à dire ? Vous allez me forcer à aller au parc ? </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_35</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_35">
+    	<charname> Garde du Parc </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Non ! Je vais te tuer ! Meurt, traitre ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_36</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_36">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Le combat s'engage entre vous et le garde du parc. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Battle_Status_1</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Battle_Status_1">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Le garde est stoic, il est prêt à en découdre. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>3</number>
+    		<b1name>Le frapper</b1name>
+    	  <b1to>OnRoad_Attack_Wrong</b1to>
+        <b2name>Le distraire</b2name>
+        <b2to>OnRoad_Distraction_Good</b2to>
+        <b3name>Fuir</b3name>
+        <b3to>OnRoad_RunAway_Bad</b3to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Attack_Wrong">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> J'attaque le garde, mais il était prêt et il me tue sans difficultés. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>Dead_Garde_OnRoad</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_RunAway_Bad">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Je fuis le garde, mais il me tire dessus. Je tombe, sans vie. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>Dead_Garde_OnRoad</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Distraction_Good">
+    	<charname> Héro </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Votre parc n'est rien de plus qu'un dépotoir ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Distraction_Good2</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Distraction_Good2">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Mon plan fonctionne, le garde est très énervé maintenant. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Battle_Status_2</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Battle_Status_2">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Le garde est très déconcentré par mes propos. C'est le moment ou jamais ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>3</number>
+    		<b1name>Le frapper</b1name>
+    	  <b1to>OnRoad_Attack_Good</b1to>
+        <b2name>Le distraire</b2name>
+        <b2to>OnRoad_Distraction_Wrong</b2to>
+        <b3name>Fuir</b3name>
+        <b3to>OnRoad_RunAway_Bad</b3to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Distraction_Wrong">
+    	<charname> Héro </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Et votre PDG ? C'est un idiot, un vaurien ! </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Distraction_Wrong2</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Distraction_Wrong2">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Le garde est fou. Il me tire dessus à plusieurs reprises. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>Dead_Garde_OnRoad</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Attack_Good">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> J'attaque le garde, j'arrive à le désarmer et à le blesser. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Battle_Status_3</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Battle_Status_3">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Le garde est au sol, inoffencif. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>3</number>
+    		<b1name>Le tuer</b1name>
+    	  <b1to>OnRoad_Kill</b1to>
+        <b2name>Le huer</b2name>
+        <b2to>OnRoad_Distraction</b2to>
+        <b3name>Partir</b3name>
+        <b3to>OnRoad_RunAway</b3to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_RunAway">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Je m'enfuis avant qu'un temoin n'arrive. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_37</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Kill">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Je tue le garde et je continue sur la route avant qu'un temoin n'arrive. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_37</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Distraction">
+    	<charname> Héro </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> J'avais raison on dirait... </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Distraction2</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Distraction2">
+    	<charname> Garde du PArc </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> ... </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char>res\\perso\\garde.png</char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Battle_Status_3</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_37">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> J'ai gagné le combat ! Mais je devrais faire attention à l'avenir à ces gardes. </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_38</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_38">
+    	<charname>  </charname>
+    	<charcolor> Tan </charcolor>
+    	<dialog> Qui sait d'ou est-ce qu'ils viennent... </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_39</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_39">
+    	<charname> Héro </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Harold avait peut être raison sur ce fameux 'parc'... </dialog>
+    	<background>res\\img\\route_normal.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_40</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_40">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Je continue d'avancer jusqu'à une intersection. </dialog>
+    	<background>res\\img\\route_intersection.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_41</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_41">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> A gauche, le chemin va vers une forêt dense. </dialog>
+    	<background>res\\img\\route_intersection.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_42</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_42">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> A droite, il va vers un parc. C'est peut être de la que vient le garde. </dialog>
+    	<background>res\\img\\route_intersection.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_43</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_43">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Par ou vais-je aller ? </dialog>
+    	<background>res\\img\\route_intersection.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>2</number>
+    		<b1name>A Gauche</b1name>
+    	  <b1to>OnRoad_Gauche</b1to>
+        <b1name>A Droite</b1name>
+        <b1to>OnRoad_Droite</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Gauche">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Je m'avance sur le chemin de gauche, espérant ne pas trouver de tueur sanginaire sur le chemin. </dialog>
+    	<background>res\\img\\route_intersection.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Gauche</b1to>
+    	</buttons>
+    </scene>
+
+    <scene id="OnRoad_Droite">
+    	<charname>  </charname>
+    	<charcolor> Blue </charcolor>
+    	<dialog> Je m'avance sur le chemin de droite, espérant ne pas trouver d'autres gardes sur le chemin. </dialog>
+    	<background>res\\img\\route_intersection.png</background>
+    		<char></char>
+    	<buttons>
+    	  <number>1</number>
+    			<b1name>></b1name>
+    	  <b1to>OnRoad_Droite</b1to>
+    	</buttons>
+    </scene>
+
+
+
+	<!--   ______________________________________________Morts_____________________________________________ -->
+
+
+
+
+
+
+
+  <scene id="Dead_Shot_OnRoad">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Vous êtes mort. Il semblerait que foncer la tête baissée n'était pas la bonne solution... </dialog>
+  	<background>res\\img\\mort.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>Réessayer</b1name>
+  	  <b1to>OnRoad_20</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Dead_Garde_OnRoad">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Vous êtes mort. Ce garde est bien trop puissant pour vous... </dialog>
+  	<background>res\\img\\mort.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>Réessayer</b1name>
+  	  <b1to>OnRoad_36</b1to>
+  	</buttons>
+  </scene>
+
+
+
 
 </scenes>

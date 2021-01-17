@@ -550,4 +550,17 @@
   	</buttons>
   </scene>
 
+  <scene id="Intro_39">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je dois avancer, la route va être longue. </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_40</b1to>
+  	</buttons>
+  </scene>
+
 </scenes>

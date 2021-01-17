@@ -64,7 +64,7 @@ function LoadScene(Id){
   var Scene = ScenesTable.getElementById(Id);
   CurrentScene = Scene;
   ChangePersoName(Scene.querySelector("charname").innerHTML,Scene.querySelector("charcolor").innerHTML)
-  ChangeDialog(Scene.querySelector("dialog").innerHTML,Scene,0);
+  ChangeDialog(Scene.querySelector("dialog").innerHTML,Scene);
   ChangeImg(Scene.querySelector("background").innerHTML);
   ChangePersoImg(Scene.querySelector("char").innerHTML)
   SetButtons(Scene.querySelector("buttons"));

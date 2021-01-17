@@ -2,6 +2,7 @@
 
 var ScenesTable;
 var XmlButtonData;
+var CurrentScene;
 
 
 function ChangeWindowName(Name){
@@ -13,9 +14,18 @@ function ChangePersoName(Name,Color){
   document.getElementById("perso").style.color = Color;
 };
 
-function ChangeDialog(Txt){
-  document.getElementById("dialog").innerHTML = Txt;
+function ChangeDialog(Txt,Scene){
+  document.getElementById("dialog").innerHTML = "";
+  typeWriter(Txt,Scene);
 };
+
+function typeWriter(Txt,Scene,i) {
+  if (i < Txt.length && Scene == CurrentScene) {
+    document.getElementById("dialog").innerHTML += txt.charAt(i);
+    i++
+    setTimeout(function(){typeWriter(Txt,Scene)}, 100,i);
+  }
+}
 
 function ChangeImg(Img){
   if(document.getElementById("img").getAttribute("src") != Img){
@@ -52,8 +62,9 @@ function SetButtons(XmlData){
 
 function LoadScene(Id){
   var Scene = ScenesTable.getElementById(Id);
+  CurrentScene = Scene;
   ChangePersoName(Scene.querySelector("charname").innerHTML,Scene.querySelector("charcolor").innerHTML)
-  ChangeDialog(Scene.querySelector("dialog").innerHTML);
+  ChangeDialog(Scene.querySelector("dialog").innerHTML,Scene,0);
   ChangeImg(Scene.querySelector("background").innerHTML);
   ChangePersoImg(Scene.querySelector("char").innerHTML)
   SetButtons(Scene.querySelector("buttons"));

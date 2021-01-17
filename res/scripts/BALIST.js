@@ -16,7 +16,7 @@ function ChangePersoName(Name,Color){
 
 function ChangeDialog(Txt,Scene){
   document.getElementById("dialog").innerHTML = "";
-  typeWriter(Txt,Scene);
+  typeWriter(Txt,Scene,0);
 };
 
 function typeWriter(Txt,Scene,i) {

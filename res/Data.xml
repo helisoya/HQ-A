@@ -563,4 +563,17 @@
   	</buttons>
   </scene>
 
+  <scene id="Intro_40">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je m'éloigne de la maison d'Harold, et je commence à marcher sur la route du château. </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_1</b1to>
+  	</buttons>
+  </scene>
+
 </scenes>

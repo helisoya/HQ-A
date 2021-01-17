@@ -1410,8 +1410,8 @@
     	  <number>2</number>
     		<b1name>A Gauche</b1name>
     	  <b1to>OnRoad_Gauche</b1to>
-        <b1name>A Droite</b1name>
-        <b1to>OnRoad_Droite</b1to>
+        <b2name>A Droite</b2name>
+        <b2to>OnRoad_Droite</b2to>
     	</buttons>
     </scene>
 

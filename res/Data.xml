@@ -786,4 +786,31 @@
   	</buttons>
   </scene>
 
+  <scene id="OnRoad_13">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je n'ai bientôt plus la sensation d'être observé. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_14</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_14">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> C'était surement mon imagination, le froid ne me fait pas du bien. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_15</b1to>
+  	</buttons>
+  </scene>
+
+
 </scenes>

@@ -1,0 +1,422 @@
+<scenes>
+	<!--   ______________________________________________Intro_____________________________________________ -->
+  <scene id="Intro_1">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Il y a longtemps, dans la lointaine province de Vlatyr, le chaos reignait. </dialog>
+	<background>res\\img\\mountain.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+	  <b1name>></b1name>
+	  <b1to>Intro_2</b1to>
+	</buttons>
+  </scene>
+
+  <scene id="Intro_2">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Le terrible Seigneur Braise terrorisait la région en commetant de nombreux crimes horribles. </dialog>
+	<background>res\\img\\dragon.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_3</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_3">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Mais son règne fut abregé par un héro au coeur noble et vaillant, qui le tua à l'aide de ses abilités hors normes. </dialog>
+	<background>res\\img\\dragon.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_4</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_4">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Depuis ce jour, la région fut en paix, libre de toutes menaces. </dialog>
+	<background>res\\img\\mountain.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_5</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_5">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Mais des rumeurs circulairent sur la mort du dragon, beaucoup doutaient qu'un tel miracle puisse arriver. </dialog>
+	<background>res\\img\\mountain.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_6</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_6">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Certains affirmaient qu'il était toujours en vie, et qu'une chose terrible allait se produire. </dialog>
+	<background>res\\img\\mountain.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_7</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_7">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Son château était une forteresse impénetrable et il serait facile de fomenter quelques crimes derrière ses remparts. </dialog>
+	<background>res\\img\\braise.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_8</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_8">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Mais personne n'eu le courage d'approcher le dangereux château. Il était bien trop loin dans les montagnes et les chemins n'étaient pas surs. </dialog>
+	<background>res\\img\\braise.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_9</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_9">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Vlatyr allait donc devoir faire face à une nouvelle menace, si personne n'allait enqueter dans le château. </dialog>
+	<background>res\\img\\braise.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_10</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_10">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Il fallait donc un miracle de plus pour la petite région. </dialog>
+	<background>res\\img\\braise.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_11</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_11">
+	<charname> ??? </charname>
+	<charcolor> Green </charcolor>
+	<dialog> J'espère que vous avez compris votre mission, héro ! </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_12</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_12">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Promis, je vous renvois chez vous quand vous aurez fini. Paroles d'Harold ! </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_13</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_13">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Cela fait 2 semaines que le dragon est mort, et pourtant, je ne me sent plus en sécurité dans la région. </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_14</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_14">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> On dirait que quelque chose se passe avec le château, vous devriez aller voir ce qu'il s'y passe. </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_15</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_15">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Vous seul pouvez combattre les forces obscures qui nous menacent. Vous devez m'aider. </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_16</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_16">
+	<charname> Héro </charname>
+	<charcolor> Blue </charcolor>
+	<dialog> Hmm... Pourquoi moi ? Je n'ai rien demandé à personne, je ne suis même pas de la région... </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_17</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_17">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Vous êtes jeune et fort, héro ! Vous pouvez facilement vaincre vos ennemis. C'est pour cela que j'ai besoin de vous. </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_18</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_18">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Vous allez m'aider, pas vrai ? </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>2</number>
+			<b1name>Oui</b1name>
+	  <b1to>Intro_19</b1to>
+			<b2name>Non</b2name>
+	  <b2to>Intro_Pissed1</b2to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_Pissed1">
+	<charname> Héro </charname>
+	<charcolor> Blue </charcolor>
+	<dialog> Non ! Je ne vais pas vous aider ! Je n'ai rien à voir avec cette histoire ! </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_Pissed2</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_Pissed2">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> ... </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_Pissed3</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_Pissed3">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Vous n'avez pas compris... Vous... allez... m'aider... </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_arme.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_Pissed4</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_Pissed4">
+	<charname> Héro </charname>
+	<charcolor> Blue </charcolor>
+	<dialog> Je... Bien... Hmm... J'accepte ? </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_arme.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_20</b1to>
+	</buttons>
+  </scene>
+
+
+	<scene id="Intro_19">
+	<charname> Héro </charname>
+	<charcolor> Blue </charcolor>
+	<dialog> Je pense que je n'ai pas le choix... Je vais vous aider. </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold_lit.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_20</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_20">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Parfait ! Laissez-moi vous expliquer votre trajet à l'aide de cette carte. </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_21</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_21">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Voici la carte de la région, nous sommes la maison à coté du lac. </dialog>
+	<background>res\\img\\map.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_22</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_22">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Vous pouvez voir le château dans les montagnes au Nord-Est. C'est la-bas que vous devez aller. </dialog>
+	<background>res\\img\\map.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_23</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_23">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Son accès est cependant très dangereux, malgré le fait qu'il y ait 2 routes qui y vont. </dialog>
+	<background>res\\img\\map.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_24</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_24">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Le chemin au nord passe par un lieu sinistre, un 'Parc'. Si vous passez par ici, méfiez-vous et ouvrez l'oeil. </dialog>
+	<background>res\\img\\map.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_25</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_25">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Le chemin au Sud passe par les marais maudits, peu arrivent à en sortir vivant. Prenez garde si vous passez par ici. </dialog>
+	<background>res\\img\\map.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_26</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_26">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> J'ai le présentiment que vous trouverez de nombreux dangers sur votre route... </dialog>
+	<background>res\\img\\map.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_27</b1to>
+	</buttons>
+  </scene>
+
+	<scene id="Intro_27">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Mais je suis sur que vous les surmontrez ! Vous n'êtes pas un héro pour rien ! </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_28</b1to>
+	</buttons>
+  </scene>
+	
+<scene id="Intro_28">
+	<charname> Harold </charname>
+	<charcolor> Green </charcolor>
+	<dialog> Allez ! Vous avez une région à sauvez, vous ne devriez pas trainer ! </dialog>
+	<background>res\\img\\maison_lecture.png</background>
+		<char>res\\perso\\harold.gif</char>
+	<buttons>
+	  <number>1</number>
+			<b1name>></b1name>
+	  <b1to>Intro_29</b1to>
+	</buttons>
+  </scene>
+
+</scenes>

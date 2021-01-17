@@ -1,5 +1,6 @@
 <scenes>
 	<!--   ______________________________________________Intro_____________________________________________ -->
+
   <scene id="Intro_1">
 	<charname> ??? </charname>
 	<charcolor> Green </charcolor>
@@ -405,7 +406,7 @@
 	  <b1to>Intro_28</b1to>
 	</buttons>
   </scene>
-	
+
 <scene id="Intro_28">
 	<charname> Harold </charname>
 	<charcolor> Green </charcolor>
@@ -417,6 +418,136 @@
 			<b1name>></b1name>
 	  <b1to>Intro_29</b1to>
 	</buttons>
+</scene>
+
+  <scene id="Intro_29">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Il n'y a pas d'autres chemins ? Votre mission m'a l'air très dangereuse... </dialog>
+  	<background>res\\img\\maison_lecture.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_30</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_30">
+  	<charname> Harold </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Non, ce sont les seuls chemins. Mais ne vous en faites pas, ce sera plus facile que vous ne l'imaginiez ! </dialog>
+  	<background>res\\img\\maison_lecture.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_31</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_31">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je vois... </dialog>
+  	<background>res\\img\\maison_lecture.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_32</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_32">
+  	<charname> Harold </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Venez, sortons de ma maison. Je vais vous montrez le chemin à suivre pour aller vers le château. </dialog>
+  	<background>res\\img\\maison_lecture.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_33</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_33">
+  	<charname>  </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Harold me guide vers la sortie de sa maison, on dirait qu'il y a de nombreuses pièces condamnées à l'intérieur. Je me demande bien pourquoi... </dialog>
+  	<background>res\\img\\maison_lecture.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_34</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_34">
+  	<charname>  </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Nous arrivons à l'exterieur et il fait plutôt froid, c'est peut être naturel dans cette région. </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_35</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_35">
+  	<charname> Harold </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Héro ! Pour atteindre le château, vous devrez passer par cette route. Mais faites attention, le danger rode dans les parages... </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_36</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_36">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je ferais attention, je vais résoudre votre problème mais n'oubliez pas mon retour... </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_37</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_37">
+  	<charname> Harold </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Bien sur ! J'attendrais votre retour avec impatience héro ! Bonne chance ! </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>res\\perso\\harold.gif</char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_38</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Intro_38">
+  	<charname>  </charname>
+  	<charcolor> Green </charcolor>
+  	<dialog> Harold rentre chez lui et ferme la porte, je suis seul désormais. </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>Intro_39</b1to>
+  	</buttons>
   </scene>
 
 </scenes>

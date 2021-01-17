@@ -578,7 +578,27 @@
 
 
 
+
+
+
+
+
+
+
 	<!--   ______________________________________________On the Road_____________________________________________ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -609,9 +629,9 @@
   </scene>
 
   <scene id="OnRoad_3">
-  	<charname>  </charname>
+  	<charname> Héro </charname>
   	<charcolor> Blue </charcolor>
-  	<dialog> Je remarque une carte sur le coté de la route, elle semble montrer la route sur laquelle je me trouve. </dialog>
+  	<dialog> Je vais pouvoir trouver facilement mon chemin avec cette carte. Voyons-voir.... </dialog>
   	<background>res\\img\\route_map.png</background>
   		<char>/char>
   	<buttons>
@@ -621,5 +641,56 @@
   	</buttons>
   </scene>
 
+  <scene id="OnRoad_4">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Il semblerait que je ne vais pas pouvoir me perdre dans cette région... </dialog>
+  	<background>res\\img\\route_map.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_5</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_5">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je dois avancer tout droit afin d'aller vers la droite. C'est la-bas que ce trouve le château du dragon. </dialog>
+  	<background>res\\img\\route_map.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_6</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_6">
+  	<charname> Héro </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Il y a des maisons sur le chemin, je devrais faire attention. Qui sait ce dont sont capables ces personnes. </dialog>
+  	<background>res\\img\\route_map.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_6</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_7">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je m'éloigne de la carte et je continue d'avancer sur la route. </dialog>
+  	<background>res\\img\\route_map.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_7</b1to>
+  	</buttons>
+  </scene>
 
 </scenes>

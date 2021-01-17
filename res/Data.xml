@@ -735,7 +735,7 @@
   <scene id="OnRoad_11">
   	<charname>  </charname>
   	<charcolor> Blue </charcolor>
-  	<dialog> C'est comme si quelqu'un m'épiait depuis la végétation, je devreis faire attention. </dialog>
+  	<dialog> C'est comme si quelqu'un m'épiait depuis la végétation, je devrais faire attention. </dialog>
   	<background>res\\img\\route_normal.png</background>
   		<char></char>
   	<buttons>
@@ -962,7 +962,7 @@
   <scene id="OnRoad_24">
   	<charname>  </charname>
   	<charcolor> Blue </charcolor>
-  	<dialog> Je m'éloigne de la maison en prenant garde de ne pas être suivit. </dialog>
+  	<dialog> Je m'éloigne de la maison en prenant garde de ne pas être suivi. </dialog>
   	<background>res\\img\\route_maison.png</background>
   		<char></char>
   	<buttons>
@@ -988,7 +988,7 @@
   <scene id="OnRoad_26">
   	<charname>  </charname>
   	<charcolor> Blue </charcolor>
-  	<dialog> Je continue donc de marcher sur la route. </dialog>
+  	<dialog> Je n'ai pas le choix que de marcher. </dialog>
   	<background>res\\img\\route_normal.png</background>
   		<char></char>
   	<buttons>
@@ -1029,7 +1029,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Vous la ! Arretez-vous ! Vous êtes un criminel ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1042,7 +1042,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> Qui ? Moi ? Je n'ai rien fait ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1055,7 +1055,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Bien sur que si ! Je vous ai vu ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1068,7 +1068,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Vous osez ne pas aller au parc ! Vous voulez l'éviter ! C'est innacceptable ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1081,7 +1081,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Vous allez le regreter ! Je vais suivre les ordres du PDG à la lettre ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1094,7 +1094,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> C'est à dire ? Vous allez me forcer à aller au parc ? </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1107,7 +1107,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Non ! Je vais te tuer ! Meurt, traitre ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1120,7 +1120,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Le combat s'engage entre vous et le garde du parc. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1133,7 +1133,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Le garde est stoic, il est prêt à en découdre. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>3</number>
     		<b1name>Le frapper</b1name>
@@ -1150,7 +1150,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> J'attaque le garde, mais il était prêt et il me tue sans difficultés. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1163,7 +1163,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Je fuis le garde, mais il me tire dessus. Je tombe, sans vie. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1176,7 +1176,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> Votre parc n'est rien de plus qu'un dépotoir ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1189,7 +1189,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> Mon plan fonctionne, le garde est très énervé maintenant. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1202,7 +1202,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Le garde est très déconcentré par mes propos. C'est le moment ou jamais ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>3</number>
     		<b1name>Le frapper</b1name>
@@ -1219,7 +1219,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> Et votre PDG ? C'est un idiot, un vaurien ! </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1232,7 +1232,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> Le garde est fou. Il me tire dessus à plusieurs reprises. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1245,7 +1245,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> J'attaque le garde, j'arrive à le désarmer et à le blesser. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1258,7 +1258,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Le garde est au sol, inoffencif. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>3</number>
     		<b1name>Le tuer</b1name>
@@ -1275,7 +1275,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Je m'enfuis avant qu'un temoin n'arrive. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1288,7 +1288,7 @@
     	<charcolor> Tan </charcolor>
     	<dialog> Je tue le garde et je continue sur la route avant qu'un temoin n'arrive. </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1301,7 +1301,7 @@
     	<charcolor> Blue </charcolor>
     	<dialog> J'avais raison on dirait... </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
@@ -1310,11 +1310,11 @@
     </scene>
 
     <scene id="OnRoad_Distraction2">
-    	<charname> Garde du PArc </charname>
+    	<charname> Garde du Parc </charname>
     	<charcolor> Tan </charcolor>
     	<dialog> ... </dialog>
     	<background>res\\img\\route_normal.png</background>
-    		<char>res\\perso\\garde.png</char>
+    		<char>res\\perso\\garde.gif</char>
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>

@@ -21,7 +21,7 @@ function ChangeDialog(Txt,Scene){
 
 function typeWriter(Txt,Scene,i) {
   if (i < Txt.length && Scene == CurrentScene) {
-    document.getElementById("dialog").innerHTML += txt.charAt(i);
+    document.getElementById("dialog").innerHTML += Txt.charAt(i);
     i++
     setTimeout(function(){typeWriter(Txt,Scene)}, 100,i);
   }

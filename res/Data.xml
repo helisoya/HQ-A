@@ -576,4 +576,24 @@
   	</buttons>
   </scene>
 
+
+
+	<!--   ______________________________________________On the Road_____________________________________________ -->
+  
+
+
+  <scene id="OnRoad_1">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je m'éloigne de la maison d'Harold, et je commence à marcher sur la route du château. </dialog>
+  	<background>res\\img\\maison_cours.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_2</b1to>
+  	</buttons>
+  </scene>
+
+
 </scenes>

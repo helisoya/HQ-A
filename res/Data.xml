@@ -579,19 +579,45 @@
 
 
 	<!--   ______________________________________________On the Road_____________________________________________ -->
-  
+
 
 
   <scene id="OnRoad_1">
   	<charname>  </charname>
   	<charcolor> Blue </charcolor>
-  	<dialog> Je m'éloigne de la maison d'Harold, et je commence à marcher sur la route du château. </dialog>
-  	<background>res\\img\\maison_cours.png</background>
+  	<dialog> Les routes sont calmes et le vent apporte l'air froid du Nord. </dialog>
+  	<background>res\\img\\route_map.png</background>
   		<char>/char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
   	  <b1to>OnRoad_2</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_2">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je remarque une carte sur le coté de la route, elle semble montrer la route sur laquelle je me trouve. </dialog>
+  	<background>res\\img\\route_map.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_3</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_3">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je remarque une carte sur le coté de la route, elle semble montrer la route sur laquelle je me trouve. </dialog>
+  	<background>res\\img\\route_map.png</background>
+  		<char>/char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_4</b1to>
   	</buttons>
   </scene>
 

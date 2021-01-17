@@ -542,7 +542,7 @@
   	<charcolor> Green </charcolor>
   	<dialog> Harold rentre chez lui et ferme la porte, je suis seul désormais. </dialog>
   	<background>res\\img\\maison_cours.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -555,7 +555,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Je dois avancer, la route va être longue. </dialog>
   	<background>res\\img\\maison_cours.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -568,7 +568,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Je m'éloigne de la maison d'Harold, et je commence à marcher sur la route du château. </dialog>
   	<background>res\\img\\maison_cours.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -607,7 +607,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Les routes sont calmes et le vent apporte l'air froid du Nord. </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -620,7 +620,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Je remarque une carte sur le coté de la route, elle semble montrer la route sur laquelle je me trouve. </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -633,7 +633,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Je vais pouvoir trouver facilement mon chemin avec cette carte. Voyons-voir.... </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -646,7 +646,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Il semblerait que je ne vais pas pouvoir me perdre dans cette région... </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -659,7 +659,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Je dois avancer tout droit afin d'aller vers la droite. C'est la-bas que ce trouve le château du dragon. </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -672,7 +672,7 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Il y a des maisons sur le chemin, je devrais faire attention. Qui sait ce dont sont capables ces personnes. </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
@@ -685,11 +685,104 @@
   	<charcolor> Blue </charcolor>
   	<dialog> Je m'éloigne de la carte et je continue d'avancer sur la route. </dialog>
   	<background>res\\img\\route_map.png</background>
-  		<char>/char>
+  		<char></char>
   	<buttons>
   	  <number>1</number>
   			<b1name>></b1name>
-  	  <b1to>OnRoad_7</b1to>
+  	  <b1to>OnRoad_8</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_8">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Il fait très froid et il n'y a personne sur les routes. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_9</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_9">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Harold avait peut-être raison, il semblerait que quelque chose se trâme dans les parages. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_10</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_10">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Tandis que je marche, j'ai l'impression d'être suivis... </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_11</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_11">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> C'est comme si quelqu'un m'épiait depuis la végétation, je devreis faire attention. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>2</number>
+  			<b1name>Ce n'est rien</b1name>
+  	  <b1to>OnRoad_12</b1to>
+      <b2name>Vérifier si quelqu'un est là</b2name>
+    <b2to>OnRoad_Premoniton_1</b2to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_Premoniton_1">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Je me retourne et je regarde dans toute les directions. Il semblerait qu'il n'y ait personne. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_Premoniton_2</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_Premoniton_2">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Une ombre traverse mon champ de vision, mais c'est forcément une illusion. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_12</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="OnRoad_12">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Ignorant mon instinct, je continue d'avancer sur la route. </dialog>
+  	<background>res\\img\\route_normal.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>></b1name>
+  	  <b1to>OnRoad_13</b1to>
   	</buttons>
   </scene>
 

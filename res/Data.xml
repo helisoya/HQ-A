@@ -1451,7 +1451,7 @@
   <scene id="Swamp_1">
     <charname>  </charname>
     <charcolor> Blue </charcolor>
-    <dialog> J'arrive de nouveau sur une longue route. On dirait que je n'ai pas prit le chemin le plus court.... </dialog>
+    <dialog> J'arrive de nouveau sur une longue route. On dirait que je n'ai pas pris le chemin le plus court.... </dialog>
     <background>res\\img\\route_normal.png</background>
       <char></char>
     <buttons>
@@ -1490,7 +1490,7 @@
   <scene id="Swamp_4">
     <charname>  </charname>
     <charcolor> Blue </charcolor>
-    <dialog> Selon les indications d'Harold, elle mène à un marais maudit. Espérons qu'il ai tord. </dialog>
+    <dialog> Selon les indications d'Harold, elle mène à un marais maudit. Espérons qu'il ait tord. </dialog>
     <background>res\\img\\route_normal.png</background>
       <char></char>
     <buttons>

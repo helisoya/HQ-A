@@ -1714,7 +1714,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> Jamais ! Meurt ! </dialog>
     <background>res\\img\\marais_var1.png</background>
-      <char>res\\perso\\archer.gif></char>
+      <char>res\\perso\\archer.gif</char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>
@@ -1727,7 +1727,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> L'Archer me saute dessus. Il se cachait derrière un arbre. </dialog>
     <background>res\\img\\marais_var1.png</background>
-      <char>res\\perso\\archer.gif></char>
+      <char>res\\perso\\archer.gif</char>
     <buttons>
       <number>3</number>
       <b1name>Attaquer</b1name>
@@ -1744,7 +1744,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> L'archer à l'avantage, il me tue sans problèmes. </dialog>
     <background>res\\img\\marais_var1.png</background>
-      <char>res\\perso\\archer.gif></char>
+      <char>res\\perso\\archer.gif</char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>
@@ -1757,7 +1757,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> L'archer arrive sans mal à briser ma défense, il me tue. </dialog>
     <background>res\\img\\marais_var1.png</background>
-      <char>res\\perso\\archer.gif></char>
+      <char>res\\perso\\archer.gif</char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>
@@ -1770,7 +1770,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> Je prend la fuite en esquivant l'archer. Il rate son attaque, mais il continue de me poursuivre. </dialog>
     <background>res\\img\\marais_var1.png</background>
-      <char>res\\perso\\archer.gif></char>
+      <char>res\\perso\\archer.gif</char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>

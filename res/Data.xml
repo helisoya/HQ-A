@@ -1959,8 +1959,8 @@
       <number>2</number>
       <b1name>Oui</b1name>
       <b1to>Swamp_37</b1to>
-      <b1name>Esquive !</b1name>
-      <b1to>Swamp_36_parano</b1to>
+      <b2name>Esquive !</b2name>
+      <b2to>Swamp_36_parano</b2to>
     </buttons>
   </scene>
 
@@ -1986,9 +1986,9 @@
     <buttons>
       <number>2</number>
       <b1name>Oui</b1name>
-      <b1to>Swamp_38</b1to>
-      <b1name>Esquive !</b1name>
-      <b1to>Swamp_37_parano</b1to>
+      <b1to>Swamp_38</b2to>
+      <b2name>Esquive !</b2name>
+      <b2to>Swamp_37_parano</b2to>
     </buttons>
   </scene>
 

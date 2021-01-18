@@ -2341,7 +2341,7 @@
       <b2name>Parer</b2name>
       <b2to>Swamp_Battle_2_useless</b2to>
       <b3name>Destabiliser le pont</b3name>
-      <b3to>Swamp_Battle_2_bad</b3to>
+      <b3to>Swamp_Battle_2_die</b3to>
     </buttons>
   </scene>
 
@@ -2519,7 +2519,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> Nooonn !!! </dialog>
     <background>res\\img\\marais_pont.png</background>
-      <char>res\\perso\\archer.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>
@@ -2532,7 +2532,7 @@
     <charcolor> ForestGreen </charcolor>
     <dialog> L'archer tombe dans le précipice. Il n'a aucune chance de survie. </dialog>
     <background>res\\img\\marais_pont.png</background>
-      <char>res\\perso\\archer.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>
@@ -2545,7 +2545,7 @@
     <charcolor> Blue </charcolor>
     <dialog> Je devrais partir, avant de trouver d'autres dangers dans ces marais. </dialog>
     <background>res\\img\\marais_pont.png</background>
-      <char>res\\perso\\archer.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>
@@ -2558,7 +2558,7 @@
     <charcolor> Blue </charcolor>
     <dialog> Je sort donc du marais et je commence à partir pour les montagnes. </dialog>
     <background>res\\img\\marais_pont.png</background>
-      <char>res\\perso\\archer.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
         <b1name>></b1name>

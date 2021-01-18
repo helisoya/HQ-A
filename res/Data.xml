@@ -1986,7 +1986,7 @@
     <buttons>
       <number>2</number>
       <b1name>Oui</b1name>
-      <b1to>Swamp_38</b2to>
+      <b1to>Swamp_38</b1to>
       <b2name>Esquive !</b2name>
       <b2to>Swamp_37_parano</b2to>
     </buttons>

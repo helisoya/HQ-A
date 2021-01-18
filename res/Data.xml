@@ -1593,7 +1593,7 @@
 
   <scene id="Swamp_12">
     <charname> ??? </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Ah Ah ! Je vais te tuer, toi qui ose empiéter sur mon territoire ! </dialog>
     <background>res\\img\\marais_ext.png</background>
       <char></char>
@@ -1606,7 +1606,7 @@
 
   <scene id="Swamp_13">
     <charname> ??? </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Fuis ! Cela ne sert à rien ! Je te retrouverais ! </dialog>
     <background>res\\img\\marais_ext.png</background>
       <char></char>
@@ -1658,7 +1658,7 @@
 
   <scene id="Swamp_17">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Tu ne peut pas fuire ! Tu dois mourrir ! </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char></char>
@@ -1711,7 +1711,7 @@
 
   <scene id="Swamp_21">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Jamais ! Meurt ! </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char>res\\perso\\archer.gif></char>
@@ -1724,7 +1724,7 @@
 
   <scene id="Swamp_22">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'Archer me saute dessus. Il se cachait derrière un arbre. </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char>res\\perso\\archer.gif></char>
@@ -1741,7 +1741,7 @@
 
   <scene id="Swamp_22_die1">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer à l'avantage, il me tue sans problèmes. </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char>res\\perso\\archer.gif></char>
@@ -1754,7 +1754,7 @@
 
   <scene id="Swamp_22_die2">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer arrive sans mal à briser ma défense, il me tue. </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char>res\\perso\\archer.gif></char>
@@ -1767,7 +1767,7 @@
 
   <scene id="Swamp_23">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je prend la fuite en esquivant l'archer. Il rate son attaque, mais il continue de me poursuivre. </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char>res\\perso\\archer.gif></char>
@@ -1780,7 +1780,7 @@
 
   <scene id="Swamp_24">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Reviens ici ! Je n'ai pas fini ! </dialog>
     <background>res\\img\\marais_var1.png</background>
       <char></char>
@@ -1793,7 +1793,7 @@
 
   <scene id="Swamp_25">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> La poursuite est intense, mais j'arrive à gagner du terrain. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1806,7 +1806,7 @@
 
   <scene id="Swamp_26">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> J'arrive vers une rivière, elle semble mener verse la sortie. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1819,7 +1819,7 @@
 
   <scene id="Swamp_27">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je décide de la suivre, et l'archer fait de même. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1832,7 +1832,7 @@
 
   <scene id="Swamp_28">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer décoche une flèche, il va tirer. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1847,7 +1847,7 @@
 
   <scene id="Swamp_28_die">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je me met à couvert, mais l'archer en profite pour me rattraper et me tuer. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1860,7 +1860,7 @@
 
   <scene id="Swamp_29">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je saute et je change de rive. Cela déconcentre l'archer qui arrète de me viser afin de me poursuivre. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1873,7 +1873,7 @@
 
   <scene id="Swamp_30">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je continue de courir en suivant la rivière. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -1886,7 +1886,7 @@
 
   <scene id="Swamp_31">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer monte d'un coup sur un arbre et disparait. </dialog>
     <background>res\\img\\marais_var2.png</background>
       <char></char>
@@ -2048,7 +2048,7 @@
 
   <scene id="Swamp_40">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Interessant... tu n'est pas si mauvais après tout... </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2061,7 +2061,7 @@
 
   <scene id="Swamp_41">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer se cache quelque part... mais ou ? </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2087,7 +2087,7 @@
 
   <scene id="Swamp_43">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Pourquoi donc ? La sortie est proche... </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2100,7 +2100,7 @@
 
   <scene id="Swamp_44">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Il y a quelques semaines, il y avait un ogre ici... </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2114,7 +2114,7 @@
 
   <scene id="Swamp_45">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Un être horrible qui dévorait tout ceux qui s'aventurait par ici... </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2127,7 +2127,7 @@
 
   <scene id="Swamp_46">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Mais un homme est venu, il allait dans les montagnes... </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2140,7 +2140,7 @@
 
   <scene id="Swamp_47">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Il l'a tué, assez facilement en plus... </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2153,7 +2153,7 @@
 
   <scene id="Swamp_48">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je continue d'avancer pendant qu'il parle. </dialog>
     <background>res\\img\\marais_var3.png</background>
       <char></char>
@@ -2167,7 +2167,7 @@
 
   <scene id="Swamp_49">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> J'arrive près d'un pont. Je commence à le franchir. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char></char>
@@ -2181,7 +2181,7 @@
 
   <scene id="Swamp_50">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> C'est ici qu'il est mort... A cet endroit même... </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char></char>
@@ -2194,7 +2194,7 @@
 
   <scene id="Swamp_51">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'homme est allé dans les montagnes, et le dragon est mort... </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char></char>
@@ -2208,7 +2208,7 @@
 
   <scene id="Swamp_52">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je vais aller dans le château, afin de m'appropier ses richesses... </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char></char>
@@ -2221,7 +2221,7 @@
 
   <scene id="Swamp_53">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Mais toi, tu dois mourir ici... </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char></char>
@@ -2234,7 +2234,7 @@
 
   <scene id="Swamp_54">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer tombe sur le pont, devant moi. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2247,7 +2247,7 @@
 
   <scene id="Swamp_55">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Prépare-toi ! </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2260,7 +2260,7 @@
 
   <scene id="Swamp_56">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Le combat s'engage entre vous et l'archer. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2273,7 +2273,7 @@
 
   <scene id="Swamp_Battle_Status_1">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer est prêt à en découdre. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2290,7 +2290,7 @@
 
   <scene id="Swamp_Battle_1_die">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> J'attaque l'archer, mais il me tire une flèche en pleine tête. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2303,7 +2303,7 @@
 
   <scene id="Swamp_Battle_1_useless">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je pare l'attaque de l'archer... qui n'arrive pas... </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2316,7 +2316,7 @@
 
   <scene id="Swamp_Battle_1_good">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je coupe une corde du pont, ce qui le déstablilise ainsi que l'archer. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2330,7 +2330,7 @@
 
   <scene id="Swamp_Battle_Status_2">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Le pont tangue et l'archer est destablilisé. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2347,7 +2347,7 @@
 
   <scene id="Swamp_Battle_2_useless">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je pare l'attaque de l'archer... qui n'arrive pas... L'archer reprend position. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2360,7 +2360,7 @@
 
   <scene id="Swamp_Battle_2_die">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> J'essaie de couper une corde du pont, mais son instabilité me fait chuter. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2373,7 +2373,7 @@
 
   <scene id="Swamp_Battle_2_good">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je frappe l'archer, qui manque de tomber. Il decide d'attaquer à son tour. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2386,7 +2386,7 @@
 
   <scene id="Swamp_Battle_Status_3">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer me fonce dessus avec un couteau. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2403,7 +2403,7 @@
 
   <scene id="Swamp_Battle_3_bad">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je n'arrive pas à parer l'archer avec mon action. Il me tue avec son couteau. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2416,7 +2416,7 @@
 
   <scene id="Swamp_Battle_3_good">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je pare avec succès l'attaque de l'archer et je le fait reculer. Il bande son arc. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2429,7 +2429,7 @@
 
   <scene id="Swamp_Battle_Status_4">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer va me tirer dessus avec son arc. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2446,7 +2446,7 @@
 
   <scene id="Swamp_Battle_4_bad">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je n'arrive pas à parer l'archer avec mon action. Il me tire une flèche dans la tête. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2459,7 +2459,7 @@
 
   <scene id="Swamp_Battle_4_good">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je coupe une corde du pont, l'archer est destablilisé et ne peut tirer. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2472,7 +2472,7 @@
 
   <scene id="Swamp_Battle_Status_5">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer est destablilisé. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2489,7 +2489,7 @@
 
   <scene id="Swamp_Battle_5_bad">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer reprend position et me tue avec son arc. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2502,7 +2502,7 @@
 
   <scene id="Swamp_Battle_5_good">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Je fonce sur l'archer, le poussant hors du pont. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2516,7 +2516,7 @@
 
   <scene id="Swamp_57">
     <charname> Archer </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> Nooonn !!! </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>
@@ -2529,7 +2529,7 @@
 
   <scene id="Swamp_58">
     <charname>  </charname>
-    <charcolor> Turquoise </charcolor>
+    <charcolor> ForestGreen </charcolor>
     <dialog> L'archer tombe dans le précipice. Il n'a aucune chance de survie. </dialog>
     <background>res\\img\\marais_pont.png</background>
       <char>res\\perso\\archer.gif</char>

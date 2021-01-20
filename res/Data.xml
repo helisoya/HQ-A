@@ -3501,7 +3501,7 @@
     <scene id="RickeyLand_60">
       <charname> Rickey </charname>
       <charcolor> Coral </charcolor>
-      <dialog> Les montagnes ? Ah Ah ! Moi aussi ! </dialog>
+      <dialog> Le Château Braise ? Ah Ah ! Moi aussi ! </dialog>
       <background>res\\img\\parc_rempart.png</background>
         <char>res\\perso\\rickey.gif</char>
       <buttons>
@@ -3556,8 +3556,8 @@
       <charname>  </charname>
       <charcolor> Blue </charcolor>
       <dialog> Rickey me fonce dessus ! </dialog>
-      <background>res\\img\\parc_pont.png</background>
-        <char></char>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3599,8 +3599,8 @@
       <charname>  </charname>
       <charcolor> Blue </charcolor>
       <dialog> Rickey me dévisage avec un regard diabolique. </dialog>
-      <background>res\\img\\parc_pont.png</background>
-        <char></char>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3668,8 +3668,8 @@
       <charname>  </charname>
       <charcolor> Blue </charcolor>
       <dialog> Rickey est décencentré. </dialog>
-      <background>res\\img\\parc_pont.png</background>
-        <char></char>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3750,8 +3750,8 @@
       <charname>  </charname>
       <charcolor> Blue </charcolor>
       <dialog> Rickey reprend position. </dialog>
-      <background>res\\img\\parc_pont.png</background>
-        <char></char>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3819,8 +3819,8 @@
       <charname>  </charname>
       <charcolor> Blue </charcolor>
       <dialog> Rickey est déconcentré, mais quelque chose cloche. </dialog>
-      <background>res\\img\\parc_pont.png</background>
-        <char></char>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3875,8 +3875,8 @@
       <charname>  </charname>
       <charcolor> Blue </charcolor>
       <dialog> Rickey me fonce dessus encore plus rapidement ! </dialog>
-      <background>res\\img\\parc_pont.png</background>
-        <char></char>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>

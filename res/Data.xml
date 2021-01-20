@@ -2879,7 +2879,7 @@
   <scene id="RickeyLand_20">
     <charname> ??? </charname>
     <charcolor> Coral </charcolor>
-    <dialog> Ah Ah ! Il semblerait que l'un de vous soi inconscient ! Faites attention, nous avons de la compagnie ! </dialog>
+    <dialog> Ah Ah ! Il semblerait que l'un de vous soit inconscient ! Faites attention, nous avons de la compagnie ! </dialog>
     <background>res\\img\\parc_entree.png</background>
       <char></char>
     <buttons>
@@ -3223,7 +3223,7 @@
     <scene id="RickeyLand_42">
       <charname>  </charname>
       <charcolor> Blue </charcolor>
-      <dialog> J'entend cependant de manière répété un bruit strident dans mes oreilles. </dialog>
+      <dialog> J'entend cependant de manière répétée un bruit strident dans mes oreilles. </dialog>
       <background>res\\img\\parc_pont.png</background>
         <char></char>
       <buttons>
@@ -3455,7 +3455,7 @@
       <buttons>
         <number>1</number>
         <b1name>></b1name>
-        <b1to>RickeyLand_56</b1to>
+        <b1to>RickeyLand_57</b1to>
       </buttons>
     </scene>
 

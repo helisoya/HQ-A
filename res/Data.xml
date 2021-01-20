@@ -1437,7 +1437,7 @@
     	<buttons>
     	  <number>1</number>
     			<b1name>></b1name>
-    	  <b1to>OnRoad_Droite</b1to>
+    	  <b1to>RickeyLand_1</b1to>
     	</buttons>
     </scene>
 
@@ -2566,6 +2566,1472 @@
     </buttons>
   </scene>
 
+
+
+
+	<!--   ______________________________________________RickeyLand_____________________________________________ -->
+
+
+  <scene id="RickeyLand_1">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> J'approche du château, on dirait un parc gigantesque. </dialog>
+    <background>res\\img\\route_intersection.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_2">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> J'arrive vers une porte massive, c'est surement l'entrée du parc. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_3">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je dois faire attention, il y a peut être d'autres gardes dans les environs. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_4">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je vais devoir traverser le parc pour atteindre les montagnes, mais comment entrer ? </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>2</number>
+      <b1name>Sonner</b1name>
+      <b1to>RickeyLand_5a</b1to>
+      <b2name>Crier</b2name>
+      <b2to>RickeyLand_5b</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_5a">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je sonne à l'aide du bouton situé à coté de la porte. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_6a</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_6a">
+    <charname> ??? </charname>
+    <charcolor> Coral </charcolor>
+    <dialog> Qui est la ? Le parc est fermée, revenez plus tard. Ah Ah ! </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_7a</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_7a">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Bonjour, j'aimerais traverser votre parc, c'est pour me rendre dans les montagnes. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_8a</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_8a">
+    <charname> ??? </charname>
+    <charcolor> Coral </charcolor>
+    <dialog> Un Espion ! Tu va mourir insolent ! Gardes !!! </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_5b">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Hé ! Ouvrez la porte ! </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_6b</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_6b">
+    <charname> ??? </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Qui est la ? Cet endroit est fermé ! </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_7b</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_7b">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> J'amerais juste entrer à l'interieur ! </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_9">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> La porte s'ouvre d'un coup et un garde sort pour me tenir en joue. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_10">
+    <charname> Garde </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Halte !!! Vous ne pouvez pas passer ! </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_11</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_11">
+    <charname> Garde </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Le parc est fermé à cause de la disparition d'un de nos collegues. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_12</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_12">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Oups... </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_13</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_13">
+    <charname> Garde </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Vous m'avez l'air suspect. C'est comme si c'était vous le tueur... </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_14</b1to>
+    </buttons>
+  </scene>
+
+
+  <scene id="RickeyLand_14">
+    <charname> Garde </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Je vais vous demander de me suivre, je dois être sur que vous n'êtes pas un terroriste. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_15</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_15">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Mince, que dois-je faire ? </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>2</number>
+      <b1name>Accepter</b1name>
+      <b1to>RickeyLand_15_die</b1to>
+      <b2name>Le frapper</b2name>
+      <b2to>RickeyLand_16</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_15_die">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Je suis le garde et il me mène directement dans les cachots du parc. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>Dead_RickeyLand_15</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_16">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Je prend le garde par surprise et je l'assomme. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_17</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_17">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> J'entre ensuite dans le parc en passant par la porte, laissée ouverte. </dialog>
+    <background>res\\img\\parc_porte.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_18</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_18">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Le parc est immense, cela va être dur de ne pas se faire remarquer. </dialog>
+    <background>res\\img\\parc_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_19</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_19">
+    <charname>  </charname>
+    <charcolor> Tan </charcolor>
+    <dialog> Un interphone transmet d'un coup un message. </dialog>
+    <background>res\\img\\parc_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_20</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_20">
+    <charname> ??? </charname>
+    <charcolor> Coral </charcolor>
+    <dialog> Ah Ah ! Il semblerait que l'un de vous soi inconscient ! Faites attention, nous avons de la compagnie ! </dialog>
+    <background>res\\img\\parc_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_21</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_21">
+    <charname> ??? </charname>
+    <charcolor> Coral </charcolor>
+    <dialog> Attrapez cet intrus ! Ou sinon, c'est moi qui vais m'en charger ! Ah Ah ! </dialog>
+    <background>res\\img\\parc_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_22</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="RickeyLand_22">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> ... </dialog>
+    <background>res\\img\\parc_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+        <b1name>></b1name>
+      <b1to>RickeyLand_23</b1to>
+    </buttons>
+  </scene>
+
+    <scene id="RickeyLand_23">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Un bien étrange personnage... </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+          <b1name>></b1name>
+        <b1to>RickeyLand_24</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_24">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Les gardes s'affolent dans toutes les directions. Je ne vais pas pouvoir passer facilement. </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+          <b1name>></b1name>
+        <b1to>RickeyLand_25</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_25">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> L'un d'eux semble me voir et se dirige dans ma direction. </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_26</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_26">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je doit agir, vite ! </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>2</number>
+        <b1name>Ne pas bouger</b1name>
+        <b1to>RickeyLand_27</b1to>
+        <b2name>Se cacher autre part</b2name>
+        <b2to>RickeyLand_26_die</b2to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_26_die">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> J'essaie de me cacher autre part, mais le garde me remarque et me tire dessus. </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_26</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_27">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je reste immobile. Le garde passe à coté de moi sans me voir. </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_28</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_28">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Une fois que personne ne me regarde, je sort de ma cachette et j'avance dans les ruelles du parc. </dialog>
+      <background>res\\img\\parc_entree.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_29</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_29">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Les ruelles sont désertes, j'ai bien de la chance... </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_30</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_30">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> ... </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_31</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_31">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Il y a... des cameras... partout... </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_32</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_32">
+      <charname> ??? </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Ah Ah ! Je t'ai trouvé, intrus ! Tu ne nous échapperas pas ici ! </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_33</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_33">
+      <charname> ??? </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Ce n'est pas dans la ruelles des boissons de RickeyLand que tu trouveras la sortie ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_34</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_34">
+      <charname> ??? </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Mais tu peux rester ici et apprecier les boissons avec mes gardes ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_35</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_35">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je sent le sol trembler à cause des gardes qui convergent vers moi. </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_36</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_36">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je dois prendre une décision, vite... </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Se cacher dans les stands</b1name>
+        <b1to>RickeyLand_36_die1</b1to>
+        <b2name>Fuir par la rue</b2name>
+        <b2to>RickeyLand_36_die2</b2to>
+        <b3name>Fuir par les toits</b3name>
+        <b3to>RickeyLand_37</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_36_die1">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je me cache dans les stands de boissons. Les gardes ratissent la zone et me retrouvent. </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_36</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_36_die2">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je coure à travers la ruelle, mais je croise de nombreux gardes qui n'hésitent pas à tirer. </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_36</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_37">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je grimpe sur les toits et je commence à courir en direction de la sortie me menant aux montagnes. </dialog>
+      <background>res\\img\\parc_rue.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_38</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_38">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Au bout d'un moment, j'arrive vers un pont et je suis forcé de descendre des stands. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_39</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_38">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Espéront que l'on ne me voit pas ici. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_39</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_39">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je commence à traverser le pont. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_40</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_40">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> ... </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_41</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_41">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> On dirait que je les ai semés... </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_42</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_42">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> J'entend cependant de manière répété un bruit strident dans mes oreilles. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_43</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_43">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je me demande ce que c'est... </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Surement rien</b1name>
+        <b1to>Dead_RickeyLand_43_die1</b1to>
+        <b2name>Esquive!</b2name>
+        <b2to>Dead_RickeyLand_43_die2</b2to>
+        <b3name>Courir</b3name>
+        <b3to>RickeyLand_44</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="Dead_RickeyLand_43_die1">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je me prend une balle en pleine tête. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_43</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="Dead_RickeyLand_43_die2">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je fait une roulade, évitant un tir de fusil. Je me fais cependant intercepter par un garde embusqué. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_43</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_44">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je me met à courir, évitant un tir de fusil et un garde embusqué. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_44a</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_44a">
+      <charname> ??? </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Arrêtes de courir ! Je n'arrive pas à viser ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_45</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_45">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je continue de courir tandis que de nombreux gardes commencent à me courser. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_46</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_46">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je remarque une personne en train de courir sur les toits en amont. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_47</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_47">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> N'ayant pas le temps d'y réfléchir, je monte sur les remparts extérieurs du parc. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_48</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_48">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Les remparts sont anciens, mais ils me permettront de quitter cet endroit. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_49</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_49">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Après quelques mètres, je trouve une rivière en contrebas. Je vais pouvoir sauter dedans. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_50</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_50">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je prend mon élan et je m'élance... </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_51</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_51">
+      <charname> Garde </charname>
+      <charcolor> Tan </charcolor>
+      <dialog> Halte ! Vous ne passerez pas ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_52</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_52">
+      <charname>  </charname>
+      <charcolor> Tan </charcolor>
+      <dialog> Une dizaine de gardes m'ont encerclé. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_53</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_53">
+      <charname> Garde </charname>
+      <charcolor> Tan </charcolor>
+      <dialog> Je vais te finir, intrus ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_54</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_54">
+      <charname> ??? </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Stop ! Je vais m'en charger moi-même ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_55</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_55">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je me retourne pour voir... </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\garde.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_56</b1to>
+      </buttons>
+    </scene>
+
+
+    <scene id="RickeyLand_56">
+      <charname> ??? </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Ah Ah ! Voyons donc, qu'avons nous ici ? </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_56</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_57">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Mais que dis-je ! J'ai oublié de me présenter ! Je suis Rickey, le PDG du parc ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_58</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_58">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> S'introduire dans le parc est illégal, tu devrais avoir honte ! Qu'espérais-tu trouver ici ? </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_59</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_59">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je me rend dans les montagnes... </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_60</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_60">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Les montagnes ? Ah Ah ! Moi aussi ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_61</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_61">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Avec un peu de rénovation, j'en ferai mon nouveau siege social ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_62</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_62">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je vois que tu es mon concurrent pour mon affaire... J'ai une idée ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_63</b1to>
+      </buttons>
+    </scene>
+
+
+    <scene id="RickeyLand_63">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je vais te tuer ! Et tu vas te laisser faire ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_1</b1to>
+      </buttons>
+    </scene>
+
+
+    <scene id="RickeyLand_Battle_Status_1">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Rickey me fonce dessus ! </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Attaquer</b1name>
+        <b1to>RickeyLand_Battle_1_bad</b1to>
+        <b2name>Distraire</b2name>
+        <b2to>RickeyLand_Battle_1_bad</b2to>
+        <b3name>Esquiver</b3name>
+        <b3to>RickeyLand_Battle_1_good</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_1_bad">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Rickey m'asséne un coup mortel. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_1_good">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> J'esquive Rickey et je me prépare pour contre-attaquer. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_Status_2">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Rickey me dévisage avec un regard diabolique. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Attaquer</b1name>
+        <b1to>RickeyLand_Battle_2_bad</b1to>
+        <b2name>Distraire</b2name>
+        <b2to>RickeyLand_Battle_2_good</b2to>
+        <b3name>Esquiver</b3name>
+        <b3to>RickeyLand_Battle_2_useless</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_2_useless">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je fais une roulade, cela ne sert à rien. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_2_bad">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je fonce sur Rickey et il me tire une balle dans la tête. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_2_good">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Votre parc est minable, même moi je ferais mieux ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_2_good2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_2_good2">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Grr!!! Comment oses-tu ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_Status_3">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Rickey est décencentré. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Attaquer</b1name>
+        <b1to>RickeyLand_Battle_3_good</b1to>
+        <b2name>Distraire</b2name>
+        <b2to>RickeyLand_Battle_3_bad</b2to>
+        <b3name>Esquiver</b3name>
+        <b3to>RickeyLand_Battle_3_useless</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_3_useless">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je fais une roulade, cela ne sert à rien. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_3</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_3_bad">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Et puis... </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_3_bad2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_3_bad2">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> ASSEZ !!!! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_3_bad3</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_3_bad3">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Rickey me saute dessus et m'égorge... </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_3_good">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je fonce sur Rickey et je lui assène un puissant coup. Il recule de quelques pas. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_4</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_Status_4">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Rickey reprend position. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Attaquer</b1name>
+        <b1to>RickeyLand_Battle_4_bad1</b1to>
+        <b2name>Distraire</b2name>
+        <b2to>RickeyLand_Battle_4_good</b2to>
+        <b3name>Esquiver</b3name>
+        <b3to>RickeyLand_Battle_4_bad2</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_4_bad1">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> J'attaque Rickey mais il me fait tomber des remparts. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_4_bad2">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je fait une roulade, cela énerve Rickey. Il me tire dessus. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_4_good">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Et puis, RickeyLand est un mauvais choix de nom. Trop cynique ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_4_good2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_4_good2">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Grr !!!! Vaurien..... </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_5</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_Status_5">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Rickey est déconcentré, mais quelque chose cloche. </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Attaquer</b1name>
+        <b1to>RickeyLand_Battle_5_bad</b1to>
+        <b2name>Distraire</b2name>
+        <b2to>RickeyLand_Battle_5_good</b2to>
+        <b3name>Esquiver</b3name>
+        <b3to>RickeyLand_Battle_5_bad</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_5_bad">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> J'essaie de bouger, mais Rickey me tire dessus. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_5_good">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Serieusement, pointer uen arme contre un client n'est pas une bonne solution. Je vais vous dénoncer publiquement ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_5_good2</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_5_good2">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> JAMAIS !!!!! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_Battle_Status_6</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_Status_6">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Rickey me fonce dessus encore plus rapidement ! </dialog>
+      <background>res\\img\\parc_pont.png</background>
+        <char></char>
+      <buttons>
+        <number>3</number>
+        <b1name>Attaquer</b1name>
+        <b1to>RickeyLand_64</b1to>
+        <b2name>Distraire</b2name>
+        <b2to>RickeyLand_Battle_6_bad</b2to>
+        <b3name>Esquiver</b3name>
+        <b3to>RickeyLand_Battle_6_bad</b3to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_Battle_6_bad">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> J'essaie d'agir, mais Rickey me saute dessus et me tue. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>Dead_RickeyLand_Battle</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_64">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Je m'élance sur Rickey et je le fait dévier sa trajectoire. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_65</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_65">
+      <charname>  </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> Il tombe du haut des remparts. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_66</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_65">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Nooooonnn !!!!! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_66</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_66">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Il s'écrase au sol en contrebas. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_67</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_67">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Les gardes s'enfuient, j'en profite pour sauter dans la rivière que j'avais plus tôt. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_68</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_68">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> J'atterris à coté de Rickey. Qui n'est pas mort. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_69</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_69">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> J'aurai ma vengeance ! Quel est ton nom ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_70</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_70">
+      <charname> Héro </charname>
+      <charcolor> Blue </charcolor>
+      <dialog> ...Harold. </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_71</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_71">
+      <charname> Rickey </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je te retrouverai, Harold ! J'aurai ma vengeance ! Ah Ah ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_72</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_72">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Je m'éloigne, laissant ce fou succomber. Et je me dirige vers les montagnes</dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char></char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
+        <b1to>RickeyLand_72</b1to>
+      </buttons>
+    </scene>
+
+
 	<!--   ______________________________________________Morts_____________________________________________ -->
 
 
@@ -2653,5 +4119,71 @@
   	</buttons>
   </scene>
 
+
+  <scene id="Dead_RickeyLand_15">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Vous êtes mort. L'hospitabilité de ce parc est franchement inadmissible...  </dialog>
+  	<background>res\\img\\mort.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>Réessayer</b1name>
+  	  <b1to>RickeyLand_15</b1to>
+  	</buttons>
+  </scene>
+
+  <scene id="Dead_RickeyLand_26">
+  	<charname>  </charname>
+  	<charcolor> Blue </charcolor>
+  	<dialog> Vous êtes mort. Ces gardes ont des yeux perçants...  </dialog>
+  	<background>res\\img\\mort.png</background>
+  		<char></char>
+  	<buttons>
+  	  <number>1</number>
+  			<b1name>Réessayer</b1name>
+  	  <b1to>RickeyLand_26</b1to>
+  	</buttons>
+  </scene>
+
+
+<scene id="Dead_RickeyLand_36">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. L'homme à l'interphone devrait engager moins de gardes...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>RickeyLand_36</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_RickeyLand_43">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Ce pont était suspect...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>RickeyLand_43</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_RickeyLand_Battle">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Pour un PDG, Rickey est très fort...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>RickeyLand_Battle_Status_1</b1to>
+</buttons>
+</scene>
 
 </scenes>

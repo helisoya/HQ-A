@@ -3970,7 +3970,7 @@
       <charname>  </charname>
       <charcolor> Coral </charcolor>
       <dialog> J'atterris à coté de Rickey. Qui n'est pas mort. </dialog>
-      <background>res\\img\\parc_rempart.png</background>
+      <background>res\\img\\parc_sortie.png</background>
         <char></char>
       <buttons>
         <number>1</number>
@@ -3983,7 +3983,7 @@
       <charname> Rickey </charname>
       <charcolor> Coral </charcolor>
       <dialog> J'aurai ma vengeance ! Quel est ton nom ! </dialog>
-      <background>res\\img\\parc_rempart.png</background>
+      <background>res\\img\\parc_sortie.png</background>
         <char></char>
       <buttons>
         <number>1</number>
@@ -3996,7 +3996,7 @@
       <charname> Héro </charname>
       <charcolor> Blue </charcolor>
       <dialog> ...Harold. </dialog>
-      <background>res\\img\\parc_rempart.png</background>
+      <background>res\\img\\parc_sortie.png</background>
         <char></char>
       <buttons>
         <number>1</number>
@@ -4009,7 +4009,7 @@
       <charname> Rickey </charname>
       <charcolor> Coral </charcolor>
       <dialog> Je te retrouverai, Harold ! J'aurai ma vengeance ! Ah Ah ! </dialog>
-      <background>res\\img\\parc_rempart.png</background>
+      <background>res\\img\\parc_sortie.png</background>
         <char></char>
       <buttons>
         <number>1</number>
@@ -4022,7 +4022,7 @@
       <charname>  </charname>
       <charcolor> Coral </charcolor>
       <dialog> Je m'éloigne, laissant ce fou succomber. Et je me dirige vers les montagnes</dialog>
-      <background>res\\img\\parc_rempart.png</background>
+      <background>res\\img\\parc_sortie.png</background>
         <char></char>
       <buttons>
         <number>1</number>

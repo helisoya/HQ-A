@@ -1,4 +1,21 @@
 <scenes>
+
+  <scene id="Main_Menu">
+	<charname>  </charname>
+	<charcolor> Green </charcolor>
+	<dialog>  </dialog>
+	<background>res\\img\\menu.png</background>
+		<char></char>
+	<buttons>
+	  <number>1</number>
+	  <b1name>Jouer</b1name>
+	  <b1to>Intro_1</b1to>
+	</buttons>
+  </scene>
+
+
+
+
 	<!--   ______________________________________________Intro_____________________________________________ -->
 
   <scene id="Intro_1">
@@ -2562,7 +2579,7 @@
     <buttons>
       <number>1</number>
         <b1name>></b1name>
-      <b1to>Swamp_60</b1to>
+      <b1to>BraiseSwamp_1</b1to>
     </buttons>
   </scene>
 
@@ -3547,6 +3564,19 @@
       <buttons>
         <number>1</number>
         <b1name>></b1name>
+        <b1to>RickeyLand_63a</b1to>
+      </buttons>
+    </scene>
+
+    <scene id="RickeyLand_63a">
+      <charname>  </charname>
+      <charcolor> Coral </charcolor>
+      <dialog> Le combat s'engage entre vous et Rickey ! </dialog>
+      <background>res\\img\\parc_rempart.png</background>
+        <char>res\\perso\\rickey.gif</char>
+      <buttons>
+        <number>1</number>
+        <b1name>></b1name>
         <b1to>RickeyLand_Battle_Status_1</b1to>
       </buttons>
     </scene>
@@ -3667,7 +3697,7 @@
     <scene id="RickeyLand_Battle_Status_3">
       <charname>  </charname>
       <charcolor> Blue </charcolor>
-      <dialog> Rickey est décencentré. </dialog>
+      <dialog> Rickey est déconcentré. </dialog>
       <background>res\\img\\parc_rempart.png</background>
         <char>res\\perso\\rickey.gif</char>
       <buttons>
@@ -4021,7 +4051,7 @@
     <scene id="RickeyLand_72">
       <charname>  </charname>
       <charcolor> Coral </charcolor>
-      <dialog> Je m'éloigne, laissant ce fou succomber. Et je me dirige vers les montagnes</dialog>
+      <dialog> Je m'éloigne, laissant ce fou succomber. Et je me dirige vers les montagnes.</dialog>
       <background>res\\img\\parc_sortie.png</background>
         <char></char>
       <buttons>
@@ -4031,6 +4061,1393 @@
       </buttons>
     </scene>
 
+
+
+
+	<!--   ______________________________________________Braise Fortress(Swamp Var)_____________________________________________ -->
+
+
+
+
+
+  <scene id="BraiseSwamp_1">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je marche sur le chemin, l'air est froid dans les montagnes. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_2">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Heureusement pour moi, il n'y a personne dans les montagnes. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_3">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Qui sait ce que j'aurais du faire contre un autre ennemi, l'archer m'a suffit. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_4">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je continue de marcher sur le chemin, je n'ai clairement pas pris le chemin le plus court. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_5">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Espéront que le château ne soit pas loin. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_6">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> ...On dirait que je le vois... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_7">
+    <charname> Héro </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Mais...il est à plusieurs heures de marches, je doit me dépecher... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_8">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> J'accélère la cadence de marche, et je me dirige vers le château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_9">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> D'un coup, le sol tremble et des rochers commencent à tomber. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_10">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je dois agir, et vite. Sinon, je vais me faire écraser ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>2</number>
+      <b1name>Sauter hors du chemin</b1name>
+      <b1to>BraiseSwamp_10_die</b1to>
+      <b2name>Faire une roulade</b2name>
+      <b2to>BraiseSwamp_11</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_10_die">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je saute hors du chemin. Les rochers font de même et m'écrasent. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_11">
+    <charname>  </charname>
+    <charcolor> Blue </charcolor>
+    <dialog> Je fais une roulade, évitant les rochers. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_12</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_12">
+    <charname> ??? </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Ah Ah Ah ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_13</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_13">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Je me retourne pour voir un mage au dessus de moi. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_14</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_14">
+    <charname> Mage </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> J'ai réussi ! J'ai enfin tué un passant ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_15</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_15">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je suis toujours en vie... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_16</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_16">
+    <charname> Mage </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Comment ! Impossible ! J'ai pourtant fait tomber trois rochers ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_17</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_17">
+    <charname> Mage </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Je vais devoir finir le travail ! A l'attaque ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_18</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_18">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Le mage me fonce dessus ! Il a l'air de marcher étrangement... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_19</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_19">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Que faire ? </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>2</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_19_die</b1to>
+      <b2name>Se décaler</b2name>
+      <b2to>BraiseSwamp_20</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_19_die">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> J'essaie d'attaquer le mage, mais il me pousse hors du chemin. Je tombe de la colline et je meurt à cause de la chute. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_19</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_20">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Je me décale... et le mage fonce tout droit. Il tombe de la colline, il ne peut pas survivre à la chute. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_21</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_20">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ...C'était... simple... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_21</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_21">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je dois me dépecher, avant de tomber sur un autre mage. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_22</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_22">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je poursuis mon chemin vers le château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_23</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_23">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Au bout de quelques heures, j'arrive enfin vers le château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_24</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_24">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ...Ce château est immense ! Pas étonnant qu'un dragon logait ici ! </dialog>
+    <background>res\\img\\braise.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_25</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_25">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je devrais m'approcher, ma mission est de vérifier si quelqu'un manigance ici. </dialog>
+    <background>res\\img\\braise.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_26</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_26">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je m'approche donc du château. Le ciel est couvert de nuages. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_27</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_27">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il me semble entendre des voix venir du château. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_28</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_28">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'essaie de les écouter, tout en restant discret. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_29</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_29">
+    <charname> ???  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Pourquoi prenez-vous autant de temps ? </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_30</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_30">
+    <charname> ???  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Nous n'avons pas tout notre temps ! Je vais devoir diminuer votre salaire ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_31</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_31">
+    <charname> ???  </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Exusez-nous patron, la porte est plus solide que prévu. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_32</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_32">
+    <charname> ???  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Dépechez-vous ! Ou sinon, je vais ouvrir cette porte avec vos cranes ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_33</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_33">
+    <charname> ???  </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Oui patron... </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_34</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_34">
+    <charname> ???  </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Nous aurons bientôt fini patron... </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_35</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_35">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> ... </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_36</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_36">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Je dois les arreter... </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_37</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_37">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> J'avance vers la porte d'entrée du château. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_38</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_38">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Après avoir traversé le pont-levis, j'arrive près de la porte. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_39</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_39">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> La porte a l'air très robuste, il y a plusieurs personnes affairées devant elle. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_40</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_40">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Un des hommes me remarque. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_41</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_41">
+    <charname> ???  </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Patron ! On a de la compagnie ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_42</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_42">
+    <charname>   </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Une dizaine d'homme me tienent en joue. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_43</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_43">
+    <charname> ??? </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Qu'avons-nous ici ? </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\garde.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_44</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_44">
+    <charname> ??? </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Hmm... On dirait bien un intrus ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_45</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_45">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Qui êtes-vous ? Que faites-vous ici ? </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_46</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_46">
+    <charname> ??? </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> On pourait te demander la même chose ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_47</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_47">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je suis Rickey ! Le PDG du parc RickeyLand ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_48</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_48">
+    <charname> Garde </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> A fond dans le plaisir ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_49</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_49">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> C'est ca ! Le parc est un endroit magique pour toute la famille ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_50</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_50">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Enfin, pour ceux qui peuvent payer ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_51</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_51">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Et toi ? On dirait que tu n'es rien ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_52</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_52">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Ne t'inquiètes pas ! Je vais t'expliquer mon plan diabolique ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_53</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_53">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Vois-tu, il y a quelques semaines, il y avait un dragon ici. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_54</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_54">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Ce n'était pas bon pour les affaires, on avait des morts quelques fois ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_55</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_55">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Mais il y a quelques semaines, un homme l'a tué pour des CLEFS ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_56</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_56">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Maintenant, le château est vide ! Et je compte me l'approprier !  </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_57</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_57">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> J'en ferais mon nouveau siege social ! Dans le but de créer de nouveau parc dans tout le continent ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_58</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_58">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Vous êtes fou... </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_59</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_59">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> ... J'allais te proposer de nous rejoindre, mais on dirait que j'ai ma réponse ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_60</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_60">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Cela veut dire que tu es un intrus ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_61</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_61">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je vais te tuer maintenant ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_62</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_62">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Le combat s'engage entre vous et Rickey. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_1</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_1">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me fixe du regard. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_1_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_1_useless</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_1_useless2</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_1_useless">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je fais une roulade, cela ne sert à rien. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_1</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_1_useless2">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Votre plan est stupide ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_1_useless3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_1_useless3">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Bah ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_1</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_1_good">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je fonce sur Rickey, mais il se prépare à tirer. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_2">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey est prêt à tirer. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_2_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_2_good</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_2_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_2_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me tire dessus. Je m'écroule. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_2_good">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> J'esquive le tir de Rickey. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_3">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me fixe avec un regard vide. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_3_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_3_bad</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_3_good</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_3_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je fais un pas, mais Rickey me tire dessus. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_3_good">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Votre casquette reflète votre incompétance ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_3_good2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_3_good2">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Grr !!! Comment oses-tu ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_4">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey est enervé maintenant. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_4_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_4_bad</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_4_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_4_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me saute dessus, et me tue. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_4_good">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je fonce sur Rickey et je lui assène un puissant coup. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_5">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey va contre-attaquer avec son arme ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_5_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_5_bad</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_5_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_5_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me tire dessus à bout portant. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_5_good">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> J'assène un nouveau coup à Rickey, il ne peut plus attaquer. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_6">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey est sonné. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_6_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_6_bad</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_6_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_6_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey reprend ses esprits et me tire dessus. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_6_good">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je commence à attaquer Rickey, mais il commence à me foncer dessus. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_7">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me fonce dessus ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_7_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_7_good</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_7_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_7_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey m'attrape et m'égorge. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_7_good">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> J'esquive Rickey, qui manque de peu de chuter. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_8">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey est prêt. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_Battle_8_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_8_good</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_8_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_8_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je bouge un muscle, mais Rickey me tire dessus. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_8_good">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Vous n'êtes pas fort, pour un PDG puissant. Je doute de votre statut ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_8_good2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_8_good2">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je vais te tuer ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_Battle_Status_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_Status_9">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me fonce dessus. Je suis proche du pont-levis. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseSwamp_63</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseSwamp_Battle_9_bad</b2to>
+      <b3name>Distraire</b3name>
+      <b3to>BraiseSwamp_Battle_9_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_Battle_9_bad">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me tire dessus. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseSwamp_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_63">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je pousse Rickey et il tombe par dessus le pont-levis. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\rickey.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_64</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_64">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> AHHHHHHHHHHH !!!!! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_65</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_65">
+    <charname> Garde </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Patron ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_66</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_66">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Les gardes s'enfuient, il ne reste plus que moi. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_67</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_67">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ...J'ai... réussi... </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_68</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_68">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> On dirait que personne ne tentra plus de s'en prendre au château. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_69</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_69">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je devrais retourner voir Harold. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_70</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseSwamp_70">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je commence donc à repartir chez Harold. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseSwamp_70</b1to>
+    </buttons>
+  </scene>
 
 	<!--   ______________________________________________Morts_____________________________________________ -->
 
@@ -4183,6 +5600,45 @@
   <number>1</number>
     <b1name>Réessayer</b1name>
   <b1to>RickeyLand_Battle_Status_1</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_BraiseSwamp_10">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Il faudrait essayer de ne pas se mettre sur la trajectoire des rochers...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>BraiseSwamp_10</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_BraiseSwamp_19">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Ce mage n'a pas du vous voir...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>BraiseSwamp_19</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_BraiseSwamp_Battle">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Rickey est très fort...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>BraiseSwamp_19</b1to>
 </buttons>
 </scene>
 

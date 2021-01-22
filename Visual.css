@@ -29,9 +29,11 @@ ul {
 
 #perso {
   text-align: center;
+  height: 10px;
 }
 #dialog {
   text-align: center;
+  height: 120px;
 }
 
 #Data{

@@ -4844,7 +4844,7 @@
   <scene id="BraiseSwamp_57">
     <charname> Rickey </charname>
     <charcolor> Coral  </charcolor>
-    <dialog> J'en ferais mon nouveau siege social ! Dans le but de créer de nouveau parc dans tout le continent ! Ah Ah ! </dialog>
+    <dialog> J'en ferais mon nouveau siege social ! Dans le but de créer de nouveau parcs dans tout le continent ! Ah Ah ! </dialog>
     <background>res\\img\\chateau_entree.png</background>
       <char>res\\perso\\rickey.gif</char>
     <buttons>
@@ -4963,8 +4963,8 @@
   </scene>
 
   <scene id="BraiseSwamp_Battle_1_useless3">
-    <charname> Héro </charname>
-    <charcolor> Blue  </charcolor>
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
     <dialog> Bah ! </dialog>
     <background>res\\img\\chateau_entree.png</background>
       <char>res\\perso\\rickey.gif</char>
@@ -5270,9 +5270,9 @@
       <b1name>Attaquer</b1name>
       <b1to>BraiseSwamp_Battle_8_bad</b1to>
       <b2name>Esquiver</b2name>
-      <b2to>BraiseSwamp_Battle_8_good</b2to>
+      <b2to>BraiseSwamp_Battle_8_bad</b2to>
       <b3name>Distraire</b3name>
-      <b3to>BraiseSwamp_Battle_8_bad</b3to>
+      <b3to>BraiseSwamp_Battle_8_good</b3to>
     </buttons>
   </scene>
 
@@ -5638,7 +5638,7 @@
 <buttons>
   <number>1</number>
     <b1name>Réessayer</b1name>
-  <b1to>BraiseSwamp_19</b1to>
+  <b1to>BraiseSwamp_Battle_Status_1</b1to>
 </buttons>
 </scene>
 

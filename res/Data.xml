@@ -3686,7 +3686,7 @@
       <charcolor> Coral </charcolor>
       <dialog> Grr!!! Comment oses-tu ! </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3699,7 +3699,7 @@
       <charcolor> Blue </charcolor>
       <dialog> Rickey est déconcentré. </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3716,7 +3716,7 @@
       <charcolor> Blue </charcolor>
       <dialog> Je fais une roulade, cela ne sert à rien. </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3729,7 +3729,7 @@
       <charcolor> Blue </charcolor>
       <dialog> Et puis... </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3742,7 +3742,7 @@
       <charcolor> Coral </charcolor>
       <dialog> ASSEZ !!!! </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3755,7 +3755,7 @@
       <charcolor> Coral </charcolor>
       <dialog> Rickey me saute dessus et m'égorge... </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3768,7 +3768,7 @@
       <charcolor> Blue </charcolor>
       <dialog> Je fonce sur Rickey et je lui assène un puissant coup. Il recule de quelques pas. </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3893,7 +3893,7 @@
       <charcolor> Coral </charcolor>
       <dialog> JAMAIS !!!!! </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3906,7 +3906,7 @@
       <charcolor> Blue </charcolor>
       <dialog> Rickey me fonce dessus encore plus rapidement ! </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>3</number>
         <b1name>Attaquer</b1name>
@@ -3923,7 +3923,7 @@
       <charcolor> Blue </charcolor>
       <dialog> J'essaie d'agir, mais Rickey me saute dessus et me tue. </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -3936,7 +3936,7 @@
       <charcolor> Blue </charcolor>
       <dialog> Je m'élance sur Rickey et je le fait dévier sa trajectoire. </dialog>
       <background>res\\img\\parc_rempart.png</background>
-        <char>res\\perso\\rickey.gif</char>
+        <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
         <number>1</number>
         <b1name>></b1name>
@@ -5079,7 +5079,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Grr !!! Comment oses-tu ! </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5092,7 +5092,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Rickey est enervé maintenant. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>3</number>
       <b1name>Attaquer</b1name>
@@ -5109,7 +5109,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Rickey me saute dessus, et me tue. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5122,7 +5122,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Je fonce sur Rickey et je lui assène un puissant coup. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5135,7 +5135,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Rickey va contre-attaquer avec son arme ! </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>3</number>
       <b1name>Attaquer</b1name>
@@ -5152,7 +5152,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Rickey me tire dessus à bout portant. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5165,7 +5165,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> J'assène un nouveau coup à Rickey, il ne peut plus attaquer. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5307,7 +5307,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Je vais te tuer ! </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5320,7 +5320,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Rickey me fonce dessus. Je suis proche du pont-levis. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>3</number>
       <b1name>Attaquer</b1name>
@@ -5337,7 +5337,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Rickey me tire dessus. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -5350,7 +5350,7 @@
     <charcolor> Coral  </charcolor>
     <dialog> Je pousse Rickey et il tombe par dessus le pont-levis. </dialog>
     <background>res\\img\\chateau_entree.png</background>
-      <char>res\\perso\\rickey.gif</char>
+      <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>

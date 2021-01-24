@@ -5523,7 +5523,7 @@
   <scene id="BraiseRickey_6">
     <charname> Héro </charname>
     <charcolor> Blue  </charcolor>
-    <dialog> Il est a plusieurs heures de marche, je dois me dépecher. </dialog>
+    <dialog> Il est à plusieurs heures de marche, je dois me dépecher. </dialog>
     <background>res\\img\\chateau_montagnes.png</background>
       <char></char>
     <buttons>
@@ -5631,7 +5631,7 @@
   <scene id="BraiseRickey_13">
     <charname> Rickey </charname>
     <charcolor> Coral  </charcolor>
-    <dialog> Ah Ah ! Je t'ai eu, sale intrus ! </dialog>
+    <dialog> Ah Ah ! Je t'ai eu, Harold ! </dialog>
     <background>res\\img\\chateau_montagnes.png</background>
       <char></char>
     <buttons>
@@ -5774,7 +5774,7 @@
   <scene id="BraiseRickey_24">
     <charname> Héro </charname>
     <charcolor> Blue  </charcolor>
-    <dialog> Rickey ne devrait plus me poser de problèmes maintenant. </dialog>
+    <dialog> Rickey ne devrait plus me poser de problèmes. </dialog>
     <background>res\\img\\chateau_montagnes.png</background>
       <char></char>
     <buttons>
@@ -6339,7 +6339,7 @@
   <scene id="BraiseRickey_Battle_1_good">
     <charname>  </charname>
     <charcolor> Blue  </charcolor>
-    <dialog> Je donne un coup sur le pont-levis, qui fait un bruit strident. </dialog>
+    <dialog> Je donne un coup sur le pont, qui fait un bruit strident. </dialog>
     <background>res\\img\\chateau_pont.png</background>
       <char>res\\perso\\archer_spoopy.gif</char>
     <buttons>
@@ -6382,7 +6382,7 @@
   <scene id="BraiseRickey_Battle_2_good">
     <charname>  </charname>
     <charcolor> Blue  </charcolor>
-    <dialog> Je donne un nouveau coup sur le pont-levis. Certaines parties du pont tombent. </dialog>
+    <dialog> Je donne un nouveau coup sur le pont. Certaines parties du pont tombent. </dialog>
     <background>res\\img\\chateau_pont.png</background>
       <char>res\\perso\\archer_spoopy.gif</char>
     <buttons>
@@ -6653,7 +6653,7 @@
   <scene id="BraiseRickey_Battle_Status_9">
     <charname>  </charname>
     <charcolor> Blue  </charcolor>
-    <dialog> L'archer me tire desssus. </dialog>
+    <dialog> L'archer va me tomber dessus. </dialog>
     <background>res\\img\\chateau_pont.png</background>
       <char>res\\perso\\archer_spoopy.gif</char>
     <buttons>
@@ -6711,7 +6711,7 @@
     <charcolor> Blue  </charcolor>
     <dialog> Il chute et s'ecrase en contrebas. </dialog>
     <background>res\\img\\chateau_pont.png</background>
-      <char>res\\perso\\archer_spoopy.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -6724,7 +6724,7 @@
     <charcolor> Blue  </charcolor>
     <dialog> ... </dialog>
     <background>res\\img\\chateau_pont.png</background>
-      <char>res\\perso\\archer_spoopy.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -6737,7 +6737,7 @@
     <charcolor> Blue  </charcolor>
     <dialog> J'ai réussi, plus personne n'attaquera le château maintenant. </dialog>
     <background>res\\img\\chateau_pont.png</background>
-      <char>res\\perso\\archer_spoopy.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -6750,7 +6750,7 @@
     <charcolor> Blue  </charcolor>
     <dialog> Je dois rentrer chez Harold maintenant. </dialog>
     <background>res\\img\\chateau_pont.png</background>
-      <char>res\\perso\\archer_spoopy.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>
@@ -6763,7 +6763,7 @@
     <charcolor> Blue  </charcolor>
     <dialog> Je commence donc à partir. </dialog>
     <background>res\\img\\chateau_pont.png</background>
-      <char>res\\perso\\archer_spoopy.gif</char>
+      <char></char>
     <buttons>
       <number>1</number>
       <b1name>></b1name>

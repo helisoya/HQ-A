@@ -3934,7 +3934,7 @@
     <scene id="RickeyLand_64">
       <charname>  </charname>
       <charcolor> Blue </charcolor>
-      <dialog> Je m'élance sur Rickey et je le fait dévier sa trajectoire. </dialog>
+      <dialog> Je m'élance sur Rickey et je lui fait dévier sa trajectoire. </dialog>
       <background>res\\img\\parc_rempart.png</background>
         <char>res\\perso\\rickey_pissed.gif</char>
       <buttons>
@@ -4057,7 +4057,7 @@
       <buttons>
         <number>1</number>
         <b1name>></b1name>
-        <b1to>RickeyLand_72</b1to>
+        <b1to>BraiseRickey_1</b1to>
       </buttons>
     </scene>
 
@@ -5449,6 +5449,1328 @@
     </buttons>
   </scene>
 
+
+
+
+	<!--   ______________________________________________Braise Fortress(RickeyLand Var)_____________________________________________ -->
+
+
+  <scene id="BraiseRickey_1">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'arrive rapidement dans les montagnes. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_2">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'ai survécu au parc, mais qui sait quels dangers m'attendent au château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_3">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'air est froid dans les montagnes. Espéront que le chemin ne soit pas trop long. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_4">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_5">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> On dirait que je vois le chateau au loin... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_6">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il est a plusieurs heures de marche, je dois me dépecher. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_7">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Ou sinon, les maniaques du parc pourrait venir m'attraper. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_8">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je m'élance donc en direction du château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_9">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il me semble entendre cependant un sifflement dans mes oreilles. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_10">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Qu'est ce que cela peut bien vouloir dire ? </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>3</number>
+      <b1name>Rien</b1name>
+      <b1to>BraiseRickey_10_die</b1to>
+      <b2name>Roulade !</b2name>
+      <b2to>BraiseRickey_11</b2to>
+      <b3name>Se coucher au sol</b3name>
+      <b3to>BraiseRickey_10_die</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_10_die">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je me fais écraser par un boulet de canon. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_11">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je fais une roulade et j'évite un boulet de canon. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_12</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_12">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il s'arrète à coté de moi, il semblerait qu'il soit doté d'un interphone. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_13</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_13">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Ah Ah ! Je t'ai eu, sale intrus ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_14</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_14">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Voila ce que tu obtiens quand tu attaque Rickey ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_15</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_15">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je vais envoyer mes gardes pour récupérer ton corps, et je vais festoyer dessus ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_16</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_16">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je... je suis toujours en vie, vous m'avez raté. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_17</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_17">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> QUOI ! IMPOSSIBLE ! J'avais pourtant vérifié l'angle de tir ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_18</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_18">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> RHAAA ! Bande de traitres ! Vous avez sabordés ma vengeance ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_19</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_19">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Je vais tous vous faire sauter dans l'aquarium à requins ! Ah Ah ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_20</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_20">
+    <charname> Garde </charname>
+    <charcolor> Tan  </charcolor>
+    <dialog> Mais patron... c'est l'i... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_21</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_21">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> SILENCE ! Je vais m'occuper de vous ! Tout d'abord je vais vo... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_22</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_22">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Le reste des paroles sont incompréhensibles. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_23</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_23">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je m'éloigne du boulet, et je continue d'avancer vers le château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_24</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_24">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Rickey ne devrait plus me poser de problèmes maintenant. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_25</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_25">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Plus personne ne va m'agresser maintenant ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_26</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_26">
+    <charname> ??? </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> C'est faux ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_27</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_27">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Je me retourne et... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_28</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_28">
+    <charname> ??? </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Et oui ! Je vais t'emêcher de passer ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_29</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_29">
+    <charname> Mage le plus cool </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Seul moi, le plus grand et le plus cool des mages du continent peut le faire ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_30</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_30">
+    <charname> Mage le plus cool </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Prend garde ! Voici mon sortilège le plus puissant ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_31</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_31">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Le mage sort une bombe de sa poche et commence à l'allumer. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_32</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_32">
+    <charname> Mage le plus cool </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Contemple ma puissance, paien ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_33</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_33">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il explose dans un nuage de fumé. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_34</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_34">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Qu'est ce qui vient de se passer ? </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>2</number>
+      <b1name>Un piège !</b1name>
+      <b1to>BraiseRickey_35</b1to>
+      <b2name>Rien ?</b2name>
+      <b2to>BraiseRickey_34_die</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_34_die">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Le mage surgit derrière moi et me poignarde. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_34</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_35">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je me retourne juste à temps pour empêcher le mage de me poignarder. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_36</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_36">
+    <charname> Mage le plus cool </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Impossible ! Ma magie est trop puissante ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_37</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_37">
+    <charname> Mage le plus cool </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Prend garde ! Voila mon tour ultime ! </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char>res\\perso\\mage.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_38</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_38">
+    <charname>  </charname>
+    <charcolor> DarkSlateGray  </charcolor>
+    <dialog> Le mage disparait. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_39</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_39">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il réapparait en l'air et il tombe de la montagne. Il s'écrase en bas. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_40</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_40">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_41</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_41">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Fuyons... </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_42</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_42">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'avance une fois de plus vers le château. </dialog>
+    <background>res\\img\\chateau_montagnes.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_43</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_43">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Au bout de quelques heures, j'arrive enfin à proximité de la forteresse. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_44</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_44">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il ne me reste plus qu'une montée, et je serais face au château. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_45</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_45">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il me semble qu'il n'y a personne au alentour du château. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_46</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_46">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'arrive enfin face au château. </dialog>
+    <background>res\\img\\chateau_route.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_47</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_47">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ...Impressionant... </dialog>
+    <background>res\\img\\braise.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_48</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_48">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> On dirait qu'il est désert, je devrais m'en assurer. </dialog>
+    <background>res\\img\\braise.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_49</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_49">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je m'approche du château. </dialog>
+    <background>res\\img\\braise.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_50</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_50">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'arrive vers la porte d'entrée. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_51</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_51">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je m'avance vers la porte. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_52</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_52">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Une flèche vient se planter à coté de moi, sur la porte. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_53</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_53">
+    <charname> ??? </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Un visiteur ? Interessant... </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_54</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_54">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Que faites-vous ici ? Voleur ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_55</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_55">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Je suis un archer, pas un voleur. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_56</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_56">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Et puis, le lieu est abandonné. Je ne vole rien, je m'approprie les trésors ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_57</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_57">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Tu m'as l'air dangereux... Je vais devoir m'occuper de toi... </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_58</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_58">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Les artefacts que j'ai récupéré m'aideront pour cela ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_59</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_59">
+    <charname>  </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Il met un anneau sur son doigt, et il se met à trembler. </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_60</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_60">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> AH AH AH ! Je suis tout puissant maintenant !  </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_61</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_61">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> Je vais t'exterminer ! Et ensuite, j'irai conquérir la région ! </dialog>
+    <background>res\\img\\chateau_entree.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_62</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_62">
+    <charname> Archer </charname>
+    <charcolor> ForestGreen  </charcolor>
+    <dialog> L'archer me pousse sur le pont et se prépare au combat. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_63</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_63">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Le combat s'engage entre vous et l'archer. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_1</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_1">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer est prêt au combat. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_1_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_1_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_1_good</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_1_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer me tire une flèche dans la tête. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_1_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je donne un coup sur le pont-levis, qui fait un bruit strident. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_2">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer regarde l'intégrité du pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_2_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_2_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_2_good</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_2_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'essaie de bouger, mais l'archer me tire dessus. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_2_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je donne un nouveau coup sur le pont-levis. Certaines parties du pont tombent. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_3">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer saute et prépare une flèche. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_3_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_3_good</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_3_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_3_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> La flèche me traverse le coeur. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_3_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je fais une roulade, évitant la flèche. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_4">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer atterit et déstabilise le pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_4_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_4_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_4_good</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_4_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Le pont s'éffondre sous mes pieds et je tombe. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_4_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je donne un coup sur le pont et de nouveaux morceaux tombent. L'archer manque de tomber lui-aussi. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_5">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Nous sommes tout deux sur de petits morceaux du pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_5_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_5_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_5_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_5_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je glisse et je tombe hors du pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_5_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je saute et j'atterit sur le même morceau que l'archer. Je l'attaque. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_6">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer va contre-attaquer ! </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_6_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_6_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_6_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_6_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer contre-attaque et me tue. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_6_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'assène un coup à l'archer et je le destabilise. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_7">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer n'est pas stable. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_7_good</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_7_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_7_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_7_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je tombe hors du pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_7_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'essaie d'attaquer de nouveau l'archer, mais celui-ci saute sur un rempart du pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_8">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer me tire desssus. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_8_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_8_good</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_8_bad</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_8_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je me prend la flèche dans la jambe et je tombe. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_8_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'esquive la flèche et l'archer me saute dessus. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_Battle_Status_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_Status_9">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer me tire desssus. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>3</number>
+      <b1name>Attaquer</b1name>
+      <b1to>BraiseRickey_Battle_9_bad</b1to>
+      <b2name>Esquiver</b2name>
+      <b2to>BraiseRickey_Battle_9_bad</b2to>
+      <b3name>Destabiliser le pont</b3name>
+      <b3to>BraiseRickey_Battle_9_good</b3to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_9_bad">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer me tombe dessus et me tue. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Dead_BraiseRickey_Battle</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_Battle_9_good">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je déstabilise le pont et je me met à l'abri hors du pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_64</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_64">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> L'archer atterit devant moi, mais il déstabilise le pont. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_65</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_65">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Il chute et s'ecrase en contrebas. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_66</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_66">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ... </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_67</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_67">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'ai réussi, plus personne n'attaquera le château maintenant. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_68</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_68">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je dois rentrer chez Harold maintenant. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_69</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="BraiseRickey_69">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je commence donc à partir. </dialog>
+    <background>res\\img\\chateau_pont.png</background>
+      <char>res\\perso\\archer_spoopy.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>BraiseRickey_69</b1to>
+    </buttons>
+  </scene>
+
 	<!--   ______________________________________________Morts_____________________________________________ -->
 
 
@@ -5639,6 +6961,45 @@
   <number>1</number>
     <b1name>Réessayer</b1name>
   <b1to>BraiseSwamp_Battle_Status_1</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_BraiseRickey_10">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. C'était un boulet de canon...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>BraiseRickey_10</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_BraiseRickey_34">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Ce mage est un génie...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>BraiseRickey_34</b1to>
+</buttons>
+</scene>
+
+<scene id="Dead_BraiseRickey_Battle">
+<charname>  </charname>
+<charcolor> Blue </charcolor>
+<dialog> Vous êtes mort. Cet archer est très fort maintenant...  </dialog>
+<background>res\\img\\mort.png</background>
+  <char></char>
+<buttons>
+  <number>1</number>
+    <b1name>Réessayer</b1name>
+  <b1to>BraiseRickey_Battle_Status_1</b1to>
 </buttons>
 </scene>
 

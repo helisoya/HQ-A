@@ -5445,7 +5445,7 @@
     <buttons>
       <number>1</number>
       <b1name>></b1name>
-      <b1to>BraiseSwamp_70</b1to>
+      <b1to>Epilog_1</b1to>
     </buttons>
   </scene>
 
@@ -6767,9 +6767,725 @@
     <buttons>
       <number>1</number>
       <b1name>></b1name>
-      <b1to>BraiseRickey_69</b1to>
+      <b1to>Epilog_1</b1to>
     </buttons>
   </scene>
+
+
+
+
+	<!--   ______________________________________________Epilogue_____________________________________________ -->
+
+
+
+
+  <scene id="Epilog_1">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Après de longues heures de marche, j'arrive enfin chez Harold. </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_2">
+    <charname>  </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je sonne à sa porte et j'attend. </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_3">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Héro ? C'est bien vous ? </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_4">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Oui, j'ai mené l'enquête, personne ne s'attaquera au château. </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_5">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Ouf, c'est très bien. J'ai eu peur que des forces terribles ne complotent contre nous. </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_6">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Mais entrez-donc Héro ! Fétons ensemble cette victoire ! </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_7">
+    <charname>  </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Je suis Harold à l'intérieur. </dialog>
+    <background>res\\img\\maison_cours.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_8">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Mais alors, qui menaçait le château ? Je pensais qu'il avait été aquis par un groupe inconnu. </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_9">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Un archer du marais voulait le pillier, et le PDG du parc voisin voulait en faire un siege social. </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_10">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Rickey et un archer ? J'ai bien fait de vous envoyer, sinon... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_11</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_11">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> ...disont que le sang aurait coulé dans les environs... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_12</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_12">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Bien ! Je sais que je dois vous renvoyer chez vous, mais... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_13</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_13">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Disons que vos talents seraient la bienvenue dans une... association que je préside... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_14</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_14">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> J'aimerais donc vous demandez si vous voulez nous... rejoindre... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_15</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_15">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Un guerrier comme vous a toute sa place dans nos rang, et... il serait dommage de s'en priver... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_16</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_16">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Alors ? Qu'en dites-vous ? </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>Bien sur</b1name>
+      <b1to>Epilog_Accept1a</b1to>
+      <b2name>Jamais</b2name>
+      <b2to>Epilog_17</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_17">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Je ne peut pas accepter cela, Harold. Vous devez me renvoyer chez moi. </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_18</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_18">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> ...Je vois, c'est bien dommage... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_19</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_19">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Je n'ai pas vraiment envie de vous renvoyer chez vous au final... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_20</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_20">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Vous m'êtes bien trop précieux. </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_21</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_21">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Mon ordre a besoin d'hommes comme vous, Héro... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_22</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_22">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Vous seul pouvez nous aider à vaincre la corruption du monde. </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_23</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_23">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Vous seul pouvez nous aider à répandre la volonté de notre seigneur et maitre. </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_24</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_24">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Je vous donne un choix. Rejoignez-moi, ou je pourais... vous donnez un combat que vous ne pouvez gagner... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_25</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_25">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Ce serait un anticlimax après tout ce que vous avez vécu, pas vrai ? </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_26</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_26">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Alors ? Choisissez vite, Héro... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>2</number>
+      <b1name>Allez mourir</b1name>
+      <b1to>Epilog_Refuse1</b1to>
+      <b2name>...Très bien</b2name>
+      <b2to>Epilog_Accept1b</b2to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept1a">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'accepte de vous rejoindre... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept1b">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ...J'accepte de vous rejoindre... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept2">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Parfait, Héro ! Bienvenue dans nos rangs ! </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept3">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Le monde à besoin de nous, les invocateurs doivent le purifier ! </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept4">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Mais vous... vous êtes ma pièce maitresse ! </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept5">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Je vais prendre la liberté de choisir vos assignements, je ne veux pas risquer de vous perdre. </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept6">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Il y a deux semaines, j'ai envoyé un autre homme pour nettoyer le château. </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept7">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Ce bougre était puissant, mais j'ai du le laisser partir. </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept8">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> En attendant de pouvoir l'attraper de nouveau, je vais commencer l'occupation du château. </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept9">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> C'est un bien sale boulot que vous avez réussi, je suis impressioné... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept10">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> J'espère pouvoir voir vos talents de nouveau, à nos cotés... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept11</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept11">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> En attendant, c'est ici que je m'en vais... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept12</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept12">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Reposez-vous, vous en aurez besoin... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Accept13</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Accept13">
+    <charname>  </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> ... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>End_Screen</b1to>
+    </buttons>
+  </scene>
+
+
+  <scene id="Epilog_Refuse1">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> ...Allez mourir... </dialog>
+    <background>res\\img\\maison_lecture.png</background>
+      <char>res\\perso\\harold_arme.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse2</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse2">
+    <charname> Harold </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Hé Hé Hé, c'est plutôt vous qui allez mourir. Adieux, Héro ! </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse3</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse3">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> Ou suis-je ? Il fait si froid... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse4</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse4">
+    <charname> Héro </charname>
+    <charcolor> Blue  </charcolor>
+    <dialog> J'entend du bruit... </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse5</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse5">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Ah Ah ! Qu'avons-vous la ! Toi ! </dialog>
+    <background>res\\img\\bs.png</background>
+      <char>res\\perso\\rickey_pissed.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse6</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse6">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Ah Ah ! Je vais me venger maintenant ! Et pour toujours !  </dialog>
+    <background>res\\img\\bs.png</background>
+      <char>res\\perso\\rickey_pissed.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse7</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse7">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Rickey me tire dessus,je suis emplit de néant...  </dialog>
+    <background>res\\img\\bs.png</background>
+      <char>res\\perso\\rickey_pissed.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse8</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse8">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Vous êtes mort.  </dialog>
+    <background>res\\img\\mort.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse9</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse9">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Vous êtes mort......  </dialog>
+    <background>res\\img\\mort.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse10</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse10">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Vous êtes mort.............................  </dialog>
+    <background>res\\img\\mort.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse11</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse11">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Vous êtes mort.............................................  </dialog>
+    <background>res\\img\\mort.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse12</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse12">
+    <charname> Rickey </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> Et je te tuerai encore ! Et encore ! Pour toujours ! Ah Ah !  </dialog>
+    <background>res\\img\\mort.png</background>
+      <char>res\\perso\\rickey_pissed.gif</char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>Epilog_Refuse13</b1to>
+    </buttons>
+  </scene>
+
+  <scene id="Epilog_Refuse13">
+    <charname>  </charname>
+    <charcolor> Coral  </charcolor>
+    <dialog> ...  </dialog>
+    <background>res\\img\\bs.png</background>
+      <char></char>
+    <buttons>
+      <number>1</number>
+      <b1name>></b1name>
+      <b1to>End_Screen</b1to>
+    </buttons>
+  </scene>
+
+
+
+  <scene id="End_Screen">
+    <charname> FIN </charname>
+    <charcolor> Green  </charcolor>
+    <dialog> Merci d'avoir joué ! </dialog>
+    <background>res\\img\\menu.png</background>
+      <char></char>
+    <buttons>
+      <number>0</number>
+    </buttons>
+  </scene>
+
 
 	<!--   ______________________________________________Morts_____________________________________________ -->
 

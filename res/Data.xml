@@ -6912,7 +6912,7 @@
   <scene id="Epilog_11">
     <charname> Harold </charname>
     <charcolor> Green  </charcolor>
-    <dialog> ...disont que le sang aurait coulé dans les environs... </dialog>
+    <dialog> ...disons que le sang aurait coulé dans les environs... </dialog>
     <background>res\\img\\maison_lecture.png</background>
       <char>res\\perso\\harold.gif</char>
     <buttons>
@@ -6981,7 +6981,7 @@
     <background>res\\img\\maison_lecture.png</background>
       <char>res\\perso\\harold.gif</char>
     <buttons>
-      <number>1</number>
+      <number>2</number>
       <b1name>Bien sur</b1name>
       <b1to>Epilog_Accept1a</b1to>
       <b2name>Jamais</b2name>
@@ -7083,7 +7083,7 @@
   <scene id="Epilog_24">
     <charname> Harold </charname>
     <charcolor> Green  </charcolor>
-    <dialog> Je vous donne un choix. Rejoignez-moi, ou je pourais... vous donnez un combat que vous ne pouvez gagner... </dialog>
+    <dialog> Je vous donne un choix. Rejoignez-moi, ou je pourais... vous donner un combat que vous ne pouvez gagner... </dialog>
     <background>res\\img\\maison_lecture.png</background>
       <char>res\\perso\\harold_arme.gif</char>
     <buttons>
@@ -7385,7 +7385,7 @@
   <scene id="Epilog_Refuse7">
     <charname>  </charname>
     <charcolor> Coral  </charcolor>
-    <dialog> Rickey me tire dessus,je suis emplit de néant...  </dialog>
+    <dialog> Rickey me tire dessus,je suis empli de néant...  </dialog>
     <background>res\\img\\bs.png</background>
       <char>res\\perso\\rickey_pissed.gif</char>
     <buttons>
